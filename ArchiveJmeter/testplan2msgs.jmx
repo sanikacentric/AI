@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.4.1">
+  <hashTree>
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Test Plan" enabled="true">
+      <stringProp name="TestPlan.comments"></stringProp>
+      <boolProp name="TestPlan.functional_mode">false</boolProp>
+      <boolProp name="TestPlan.tearDown_on_shutdown">true</boolProp>
+      <boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
+      <elementProp name="TestPlan.user_defined_variables" elementType="Arguments">
+       <collectionProp name="Arguments.arguments">
+          <elementProp name="udv_bootstrap_servers" elementType="Argument">
+            <stringProp name="Argument.name">udv_bootstrap_servers</stringProp>
+            <stringProp name="Argument.value">b-1.mskqa.lsy6f8.c11.kafka.us-east-1.amazonaws.com:9096,b-2.mskqa.lsy6f8.c11.kafka.us-east-1.amazonaws.com:9096</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="udv_security_protocol" elementType="Argument">
+            <stringProp name="Argument.name">udv_security_protocol</stringProp>
+            <stringProp name="Argument.value">SASL_SSL</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="udv_sasl_mechanism" elementType="Argument">
+            <stringProp name="Argument.name">udv_sasl_mechanism</stringProp>
+            <stringProp name="Argument.value">SCRAM-SHA-512</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="udv_sasl_jaas_config_user" elementType="Argument">
+            <stringProp name="Argument.name">udv_sasl_jaas_config_user</stringProp>
+            <stringProp name="Argument.value">develop</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="udv_sasl_jaas_config_password" elementType="Argument">
+            <stringProp name="Argument.name">udv_sasl_jaas_config_password</stringProp>
+            <stringProp name="Argument.value">VEqtC6xtE9hCF4C5HX</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="udv_kafka_topic" elementType="Argument">
+            <stringProp name="Argument.name">udv_kafka_topic</stringProp>
+            <stringProp name="Argument.value">ip.documents</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="udv_kafka_consumer_topic" elementType="Argument">
+            <stringProp name="Argument.name">udv_kafka_consumer_topic</stringProp>
+            <stringProp name="Argument.value">invoice.status</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="udv_relative_file_path" elementType="Argument">
+      <stringProp name="Argument.name">udv_relative_file_path</stringProp>
+      <stringProp name="Argument.value">{
+  "messageId": "${__UUID}",
+  "timestamp": "${__time(/1000,testTimeStamp)}",
+  "eventType": "DocumentCreated",
+  "correlationId": "XFRG7789FGYHLKIYH890GH",
+  "compression": "",
+  "ContentType": "json",
+  "clientId": "Looktest",
+  "version": "1.0",
+  "supplierId": "${__UUID}",
+  "buyerId": "${__UUID}",
+  "origin": "integration-platform",
+  "payload": {
+    "transactionId": "${__UUID}",
+    "documentNumber": "sds Test Document to CDS",
+    "documentType": "invoice",
+  "cxml": "&lt;cXML xml:lang='en-US' timestamp='${new Date().toISOString()}' payloadID='${generateUUID()}@prd1246utl2.int.coupa'&gt;&lt;Header&gt;&lt;From&gt;&lt;Credential domain='DUNS'&gt;&lt;Identity&gt;Corcentric&lt;/Identity&gt;&lt;/Credential&gt;&lt;/From&gt;&lt;To&gt;&lt;Credential domain='NetworkID'&gt;&lt;Identity&gt;CLIENT&lt;/Identity&gt;&lt;/Credential&gt;&lt;/To&gt;&lt;Sender&gt;&lt;Credential domain='DUNS'&gt;&lt;Identity&gt;Corcentric&lt;/Identity&gt;&lt;SharedSecret&gt;Welcome1&lt;/SharedSecret&gt;&lt;/Credential&gt;&lt;UserAgent&gt;PurchaseManager&lt;/UserAgent&gt;&lt;/Sender&gt;&lt;/Header&gt;&lt;Request deploymentMode='production'&gt;&lt;InvoiceDetailRequest&gt;&lt;InvoiceDetailRequestHeader invoiceID='${generateUUID()}' purpose='standard' operation='new' invoiceDate='${new Date().toISOString()}'&gt;&lt;InvoiceDetailHeaderIndicator/&gt;&lt;InvoiceDetailLineIndicator/&gt;&lt;InvoicePartner&gt;&lt;Contact role='billFrom' addressID='CorcProd'&gt;&lt;Name xml:lang='en-US'&gt;Pinnacle Fleet Solutions&lt;/Name&gt;&lt;PostalAddress name='Pinnacle Fleet Solutions'&gt;&lt;Street&gt;62861 Collections Center Drive&lt;/Street&gt;&lt;City&gt;Chicago&lt;/City&gt;&lt;State&gt;IL&lt;/State&gt;&lt;PostalCode&gt;60693&lt;/PostalCode&gt;&lt;Country isoCountryCode='PL'&gt;Poland&lt;/Country&gt;&lt;/PostalAddress&gt;&lt;/Contact&gt;&lt;/InvoicePartner&gt;&lt;InvoicePartner&gt;&lt;Contact role='billTo' addressID='RW132'&gt;&lt;Name xml:lang='en-US'&gt;CLIENT National Serv&lt;/Name&gt;&lt;PostalAddress name='CLIENT National Serv'&gt;&lt;Street&gt;P.O. Box # 6700&lt;/Street&gt;&lt;City&gt;PORTLAND&lt;/City&gt;&lt;State&gt;OR&lt;/State&gt;&lt;PostalCode&gt;97228-6700&lt;/PostalCode&gt;&lt;Country isoCountryCode='US'&gt;United States&lt;/Country&gt;&lt;/PostalAddress&gt;&lt;/Contact&gt;&lt;/InvoicePartner&gt;&lt;InvoiceDetailShipping&gt;&lt;Contact role='shipTo' addressID='RW132'&gt;&lt;Name xml:lang='en-US'&gt;Amex Traders&lt;/Name&gt;&lt;PostalAddress name='Amex Traders'&gt;&lt;Street&gt;P.O. Box # 6701&lt;/Street&gt;&lt;City&gt;MARYLAND&lt;/City&gt;&lt;State&gt;GA&lt;/State&gt;&lt;PostalCode&gt;30005&lt;/PostalCode&gt;&lt;Country isoCountryCode='US'&gt;United States&lt;/Country&gt;&lt;/PostalAddress&gt;&lt;/Contact&gt;&lt;Contact role='shipFrom' addressID='RW132'&gt;&lt;Name xml:lang='en-US'&gt;Happy Shipping Co&lt;/Name&gt;&lt;PostalAddress name='Happy Shipping Co'&gt;&lt;Street&gt;P.O. Box # 6702&lt;/Street&gt;&lt;City&gt;GREENLAND&lt;/City&gt;&lt;State&gt;CA&lt;/State&gt;&lt;PostalCode&gt;27801-67879&lt;/PostalCode&gt;&lt;Country isoCountryCode='PL'&gt;Poland&lt;/Country&gt;&lt;/PostalAddress&gt;&lt;/Contact&gt;&lt;/InvoiceDetailShipping&gt;&lt;InvoiceDetailPaymentTerm payInNumberOfDays='45' percentageRate='0'/&gt;&lt;/InvoiceDetailRequestHeader&gt;&lt;InvoiceDetailOrder&gt;&lt;InvoiceDetailOrderInfo&gt;&lt;OrderReference&gt;&lt;DocumentReference payloadID='13554341'/&gt;&lt;/OrderReference&gt;&lt;/InvoiceDetailOrderInfo&gt;&lt;InvoiceDetailItem invoiceLineNumber='1' quantity='1.0000'&gt;&lt;UnitOfMeasure&gt;EA&lt;/UnitOfMeasure&gt;&lt;UnitPrice&gt;&lt;Money currency='USD'&gt;249.9900&lt;/Money&gt;&lt;/UnitPrice&gt;&lt;InvoiceDetailItemReference lineNumber='2'&gt;&lt;ItemID&gt;&lt;SupplierPartID&gt;77922&lt;/SupplierPartID&gt;&lt;SupplierPartAuxiliaryID&gt;XX77922&lt;/SupplierPartAuxiliaryID&gt;&lt;/ItemID&gt;&lt;Description xml:lang='en-US'&gt;SOME BIG PART&lt;/Description&gt;&lt;/InvoiceDetailItemReference&gt;&lt;SubtotalAmount&gt;&lt;Money currency='USD'&gt;249.99&lt;/Money&gt;&lt;/SubtotalAmount&gt;&lt;/InvoiceDetailItem&gt;&lt;InvoiceDetailItem invoiceLineNumber='2' quantity='1.0000'&gt;&lt;UnitOfMeasure&gt;EA&lt;/UnitOfMeasure&gt;&lt;UnitPrice&gt;&lt;Money currency='USD'&gt;160.9900&lt;/Money&gt;&lt;/UnitPrice&gt;&lt;InvoiceDetailItemReference lineNumber='3'&gt;&lt;ItemID&gt;&lt;SupplierPartID&gt;77923&lt;/SupplierPartID&gt;&lt;SupplierPartAuxiliaryID&gt;XX77923&lt;/SupplierPartAuxiliaryID&gt;&lt;/ItemID&gt;&lt;Description xml:lang='en-US'&gt;SOME SMALL PART&lt;/Description&gt;&lt;/InvoiceDetailItemReference&gt;&lt;SubtotalAmount&gt;&lt;Money currency='USD'&gt;160.99&lt;/Money&gt;&lt;/SubtotalAmount&gt;&lt;/InvoiceDetailItem&gt;&lt;InvoiceDetailItem invoiceLineNumber='3' quantity='1.0000'&gt;&lt;UnitOfMeasure&gt;EA&lt;/UnitOfMeasure&gt;&lt;UnitPrice&gt;&lt;Money currency='USD'&gt;121.9900&lt;/Money&gt;&lt;/UnitPrice&gt;&lt;InvoiceDetailItemReference lineNumber='4'&gt;&lt;ItemID&gt;&lt;SupplierPartID&gt;77921&lt;/SupplierPartID&gt;&lt;SupplierPartAuxiliaryID&gt;XXX77921&lt;/SupplierPartAuxiliaryID&gt;&lt;/ItemID&gt;&lt;Description xml:lang='en-US'&gt;SOMETHING ELSE&lt;/Description&gt;&lt;/InvoiceDetailItemReference&gt;&lt;SubtotalAmount&gt;&lt;Money currency='USD'&gt;121.99&lt;/Money&gt;&lt;/SubtotalAmount&gt;&lt;/InvoiceDetailItem&gt;&lt;/InvoiceDetailOrder&gt;&lt;InvoiceDetailSummary&gt;&lt;SubtotalAmount&gt;&lt;Money currency='USD'&gt;532.9700&lt;/Money&gt;&lt;/SubtotalAmount&gt;&lt;Tax&gt;&lt;Money currency='USD'&gt;0.00&lt;/Money&gt;&lt;Description xml:lang='en-US'&gt;tax&lt;/Description&gt;&lt;TaxDetail purpose='tax' category='sales'&gt;&lt;TaxAmount&gt;&lt;Money currency='USD'&gt;0.00&lt;/Money&gt;&lt;/TaxAmount&gt;&lt;Description xml:lang='en-US'&gt;tax&lt;/Description&gt;&lt;/TaxDetail&gt;&lt;/Tax&gt;&lt;SpecialHandlingAmount&gt;&lt;Money currency='USD'&gt;0.00&lt;/Money&gt;&lt;/SpecialHandlingAmount&gt;&lt;ShippingAmount&gt;&lt;Money currency='USD'&gt;0.00&lt;/Money&gt;&lt;/ShippingAmount&gt;&lt;GrossAmount&gt;&lt;Money currency='USD'&gt;532.9700&lt;/Money&gt;&lt;/GrossAmount&gt;&lt;InvoiceDetailDiscount&gt;&lt;Money currency='USD'&gt;0.00&lt;/Money&gt;&lt;/InvoiceDetailDiscount&gt;&lt;NetAmount&gt;&lt;Money currency='USD'&gt;532.97&lt;/Money&gt;&lt;/NetAmount&gt;&lt;DepositAmount&gt;&lt;Money currency='USD'&gt;0.00&lt;/Money&gt;&lt;/DepositAmount&gt;&lt;DueAmount&gt;&lt;Money currency='USD'&gt;532.97&lt;/Money&gt;&lt;/DueAmount&gt;&lt;/InvoiceDetailSummary&gt;&lt;/InvoiceDetailRequest&gt;&lt;/Request&gt;&lt;/cXML&gt;",
+  "attachments": [
+      {
+        "Id": "${__UUID}",
+        "Url": "http://performancetesting.com"
+      },
+      {
+        "Id": "${__UUID}",
+        "Url": "http://performancetesting.com"
+      }
+    ]
+  }
+}
+</stringProp>
+      <stringProp name="Argument.metadata">=</stringProp>
+      </elementProp>
+          </collectionProp>
+          </elementProp>
+      <stringProp name="TestPlan.user_define_classpath"></stringProp>
+    </TestPlan>
+    <hashTree>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Thread Group" enabled="true">
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController">
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+          <intProp name="LoopController.loops">2</intProp>
+        </elementProp>
+        <stringProp name="ThreadGroup.num_threads">1</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">1</stringProp>
+        <longProp name="ThreadGroup.start_time">0</longProp>
+        <longProp name="ThreadGroup.end_time">0</longProp>
+        <boolProp name="ThreadGroup.scheduler">false</boolProp>
+        <stringProp name="ThreadGroup.duration"></stringProp>
+        <stringProp name="ThreadGroup.delay"></stringProp>
+      </ThreadGroup>
+      <hashTree>
+        <JSR223Sampler guiclass="TestBeanGUI" testclass="JSR223Sampler" testname="Kafka Producer" enabled="true">
+          <stringProp name="scriptLanguage">groovy</stringProp>
+          <stringProp name="parameters"></stringProp>
+          <stringProp name="filename"></stringProp>
+          <stringProp name="cacheKey">true</stringProp>
+           <stringProp name="script">
+
+import org.apache.kafka.clients.producer.*
+import org.apache.kafka.clients.CommonClientConfigs
+import org.apache.kafka.common.config.SaslConfigs
+import java.util.Properties
+import java.text.SimpleDateFormat
+import java.util.TimeZone
+import java.time.Instant
+import java.time.ZoneId
+import java.time.format.DateTimeFormatter
+
+def produceMessages(topic, key, value) {
+    def props = new Properties()
+    props.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, vars.get("udv_bootstrap_servers"))
+    props.put(CommonClientConfigs.SECURITY_PROTOCOL_CONFIG, vars.get("udv_security_protocol"))
+    props.put(SaslConfigs.SASL_MECHANISM, vars.get("udv_sasl_mechanism"))
+    props.put(SaslConfigs.SASL_JAAS_CONFIG, 'org.apache.kafka.common.security.scram.ScramLoginModule required username="' + vars.get("udv_sasl_jaas_config_user") + '" password="' + vars.get("udv_sasl_jaas_config_password") + '";')
+    props.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, "org.apache.kafka.common.serialization.StringSerializer")
+    props.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, "org.apache.kafka.common.serialization.StringSerializer")
+
+    def producer = new KafkaProducer&lt;String, String&gt;(props)
+   def record = new ProducerRecord&lt;String, String&gt;(topic, key, value)
+    producer.send(record)
+    producer.close()
+}
+
+// Function to format the current time in Eastern Time
+//def formatTimeInET(timeInMillis) {
+   // def sdf = new SimpleDateFormat("EEE MMM dd HH:mm:ss z yyyy")
+    //sdf.setTimeZone(TimeZone.getTimeZone("America/New_York"))
+    //return sdf.format(new Date(timeInMillis))
+//}
+
+// Function to format the current time in Eastern Time with microseconds
+def formatTimeInET(timeInMillis) {
+    def formatter = DateTimeFormatter.ofPattern("EEE MMM dd HH:mm:ss.SSSSSS z yyyy").withZone(ZoneId.of("America/New_York"))
+    return formatter.format(Instant.ofEpochMilli(timeInMillis))
+}
+
+String key = "${__UUID()}"
+def topic = vars.get("udv_kafka_topic")
+def value = vars.get("udv_relative_file_path")
+
+// Produce to the specified topic
+log.info("Producing to topic: ip.documents ##############################################################################################")
+produceMessages(topic, key, value)
+log.info("Produced message with key: ${key} and value: ${value} to topic: ip.documents at ${formatTimeInET(System.currentTimeMillis())}")
+//log.info("Produced message with key: ${key} and value: ${value} to topic: ${topic} at ${formatTimeInET(System.currentTimeMillis())}")
+
+//SampleResult.sampleEnd()
+
+
+// Sleep for 10 seconds to allow the message to be processed
+Thread.sleep(200)
+
+SampleResult.sampleEnd()</stringProp>
+        </JSR223Sampler>
+        <hashTree/>
+        <JSR223Sampler guiclass="TestBeanGUI" testclass="JSR223Sampler" testname="Kafka Consumer" enabled="true">
+          <stringProp name="scriptLanguage">groovy</stringProp>
+          <stringProp name="parameters"></stringProp>
+          <stringProp name="filename"></stringProp>
+          <stringProp name="cacheKey">true</stringProp>
+          <stringProp name="script">
+import org.apache.kafka.clients.consumer.*
+import org.apache.kafka.common.serialization.StringDeserializer
+import org.apache.kafka.clients.CommonClientConfigs
+import org.apache.kafka.common.config.SaslConfigs
+
+import java.time.Duration
+import java.util.Properties
+import java.text.SimpleDateFormat
+import java.util.TimeZone
+
+
+import java.time.Instant
+import java.time.ZoneId
+import java.time.format.DateTimeFormatter
+
+def consumeMessages(topicconsumer,expectedMessageCount) {
+    def props = new Properties()
+    props.put(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG, vars.get("udv_bootstrap_servers"))
+    props.put(CommonClientConfigs.SECURITY_PROTOCOL_CONFIG, vars.get("udv_security_protocol"))
+    props.put(SaslConfigs.SASL_MECHANISM, vars.get("udv_sasl_mechanism"))
+    props.put(SaslConfigs.SASL_JAAS_CONFIG, 'org.apache.kafka.common.security.scram.ScramLoginModule required username="' + vars.get("udv_sasl_jaas_config_user") + '" password="' + vars.get("udv_sasl_jaas_config_password") + '";')
+    props.put(ConsumerConfig.KEY_DESERIALIZER_CLASS_CONFIG, StringDeserializer.class.getName())
+    props.put(ConsumerConfig.VALUE_DESERIALIZER_CLASS_CONFIG, StringDeserializer.class.getName())
+    props.put(ConsumerConfig.GROUP_ID_CONFIG, "jmeter-consumer-group")
+    props.put(ConsumerConfig.AUTO_OFFSET_RESET_CONFIG, "earliest")
+
+    def consumer = new KafkaConsumer&lt;String, String&gt;(props)
+    consumer.subscribe([topicconsumer])
+   Thread.sleep(50)
+    log.info("##############################################################################################")
+
+    //def records = consumer.poll(Duration.ofSeconds(10))
+    //def messageCount = records.count()
+    def messageCount = 0
+    def startTime = System.currentTimeMillis()
+
+    def timeoutDuration = 60000
+
+    for (int i = 0; i &lt; timeoutDuration / 1000; i++) {
+        if (messageCount &gt;= expectedMessageCount) break
+        def records = consumer.poll(Duration.ofSeconds(50))
+        messageCount += records.count()
+    }
+
+
+    consumer.close()
+
+    return [count: messageCount, time: System.currentTimeMillis()]
+}
+// Function to format the current time in Eastern Time
+//def formatTimeInET(timeInMillis) {
+  //  def sdf = new SimpleDateFormat("EEE MMM dd HH:mm:ss z yyyy")
+    //sdf.setTimeZone(TimeZone.getTimeZone("America/New_York"))
+    //return sdf.format(new Date(timeInMillis))
+//}
+
+// Function to format the current time in Eastern Time with microseconds
+def formatTimeInET(timeInMillis) {
+    def formatter = DateTimeFormatter.ofPattern("EEE MMM dd HH:mm:ss.SSSSSS z yyyy").withZone(ZoneId.of("America/New_York"))
+    return formatter.format(Instant.ofEpochMilli(timeInMillis))
+}
+// Consume from ip.documents
+log.info(" This is test ##############################################################################################")
+//def result1 = consumeMessages("ip.documents")
+//log.info("Topic: ip.documents - Count: ${result1.count}, Time: ${new Date(result1.time).toString()}")
+//log.info("Topic: ip.documents - Count: ${result1.count}, Time: ${formatTimeInET(result1.time)}")
+
+
+log.info(" Now entering to topic cds.invoice ##############################################################################################")
+// Consume from cds.invoice
+def result2 = consumeMessages("cds.invoice", 2)
+log.info("Topic: cds.invoice - Count: ${result2.count}, Time: ${formatTimeInET(result2.time)}")
+
+
+Thread.sleep(200)
+
+// Consume from invoice.status
+def result3 = consumeMessages("invoice.status", 2)
+log.info("Topic: invoice.status - Count: ${result3.count}, Time: ${formatTimeInET(result3.time)}")
+
+// Consume from cds.invoice
+//def result2 = consumeMessages("cds.invoice")
+//log.info("Topic: cds.invoice - Count: ${result2.count}, Time: ${new Date(result2.time).toString()}")
+//log.info("Topic: cds.invoice - Count: ${result2.count}, Time: ${formatTimeInET(result2.time)}")
+
+//log.info(" Now entering to topic invoice.status ##############################################################################################")
+// Consume from invoice.status
+//def result3 = consumeMessages("invoice.status")
+//log.info("Topic: invoice.status - Count: ${result3.count}, Time: ${new Date(result3.time).toString()}")
+
+//log.info("Topic: invoice.status - Count: ${result3.count}, Time: ${formatTimeInET(result3.time)}")
+
+
+SampleResult.sampleEnd()</stringProp>
+        </JSR223Sampler>
+        <hashTree/>
+      </hashTree>
+    </hashTree>
+  </hashTree>
+</jmeterTestPlan>

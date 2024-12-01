@@ -1,0 +1,13 @@
+streamlit
+openai                # OpenAI Python SDK for using GPT models and embedding API
+python-dotenv       # For managing environment variables (like API keys)
+langchain            # For handling LLMs and embeddings
+lxml               # For parsing XML (including cXML files)
+pandas
+altair              # For data visualization (in case needed in future updates)
+matplotlib           # For data manipulation (in case needed in future updates)
+langchain-openai
+xmltodict            # For better XML parsing
+langchain-community  # To fix the error with `langchain_community.embeddings`
+
+

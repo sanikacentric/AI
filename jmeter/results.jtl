@@ -1,0 +1,732 @@
+1722223114874,12480,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722223127371,28848,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722271462540,13550,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722271476102,28599,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722273515683,13104,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722273528805,29646,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722275723390,12974,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722275736374,28500,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722396246415,13186,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722396259615,27997,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722396600053,9263,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722396609330,8462,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722436074895,2912,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722436077823,8964,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722442124277,3210,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722442127500,9337,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722450504655,2740,Kafka Producer,500,"javax.script.ScriptException: groovy.lang.MissingMethodException: No signature of method: static java.lang.Thread.sleep() is applicable for argument types: (BigDecimal) values: [0.1]
+Possible solutions: sleep(java.time.Duration), sleep(long), sleep(long), sleep(long, int), sleep(long, groovy.lang.Closure), stop()",Thread Group 1-1,text,false,,0,0,1,1,null,0,0,0
+1722450507409,156,Kafka Consumer,500,"javax.script.ScriptException: groovy.lang.MissingMethodException: No signature of method: static java.lang.Thread.sleep() is applicable for argument types: (BigDecimal) values: [0.1]
+Possible solutions: sleep(java.time.Duration), sleep(long), sleep(long), sleep(long, int), sleep(long, groovy.lang.Closure), stop()",Thread Group 1-1,text,false,,0,0,1,1,null,0,0,0
+1722452257700,3138,Kafka Producer,500,"javax.script.ScriptException: groovy.lang.MissingMethodException: No signature of method: static java.lang.Thread.sleep() is applicable for argument types: (BigDecimal) values: [0.1]
+Possible solutions: sleep(java.time.Duration), sleep(long), sleep(long), sleep(long, int), sleep(long, groovy.lang.Closure), stop()",Thread Group 1-1,text,false,,0,0,1,1,null,0,0,0
+1722452260849,113,Kafka Consumer,500,"javax.script.ScriptException: groovy.lang.MissingMethodException: No signature of method: static java.lang.Thread.sleep() is applicable for argument types: (BigDecimal) values: [0.1]
+Possible solutions: sleep(java.time.Duration), sleep(long), sleep(long), sleep(long, int), sleep(long, groovy.lang.Closure), stop()",Thread Group 1-1,text,false,,0,0,1,1,null,0,0,0
+1722452454765,2613,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722452457400,9369,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722452811550,3846,Kafka Producer,500,"javax.script.ScriptException: groovy.lang.MissingMethodException: No signature of method: static java.lang.Thread.sleep() is applicable for argument types: (BigDecimal) values: [0.5]
+Possible solutions: sleep(java.time.Duration), sleep(long), sleep(long), sleep(long, int), sleep(long, groovy.lang.Closure), stop()",Thread Group 1-1,text,false,,0,0,1,1,null,0,0,0
+1722452815412,149,Kafka Consumer,500,"javax.script.ScriptException: groovy.lang.MissingMethodException: No signature of method: static java.lang.Thread.sleep() is applicable for argument types: (BigDecimal) values: [0.5]
+Possible solutions: sleep(java.time.Duration), sleep(long), sleep(long), sleep(long, int), sleep(long, groovy.lang.Closure), stop()",Thread Group 1-1,text,false,,0,0,1,1,null,0,0,0
+1722452993230,2663,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722452995910,9128,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722453372871,2939,Kafka Producer,500,"javax.script.ScriptException: groovy.lang.MissingMethodException: No signature of method: static java.lang.Thread.sleep() is applicable for argument types: (BigDecimal) values: [0.7]
+Possible solutions: sleep(java.time.Duration), sleep(long), sleep(long), sleep(long, int), sleep(long, groovy.lang.Closure), stop()",Thread Group 1-1,text,false,,0,0,1,1,null,0,0,0
+1722453375826,123,Kafka Consumer,500,"javax.script.ScriptException: groovy.lang.MissingMethodException: No signature of method: static java.lang.Thread.sleep() is applicable for argument types: (BigDecimal) values: [0.7]
+Possible solutions: sleep(java.time.Duration), sleep(long), sleep(long), sleep(long, int), sleep(long, groovy.lang.Closure), stop()",Thread Group 1-1,text,false,,0,0,1,1,null,0,0,0
+1722453471584,2857,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722453474466,8482,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722453583313,2415,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722453585737,8499,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722454756318,2479,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722454758812,8588,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722454891258,3754,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722454895030,8632,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722460202754,3305,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722460206114,9782,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722462741325,2929,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722462744275,8861,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722464593627,3403,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722464597046,9075,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722476669164,4796,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722476673993,14642,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722477641381,4073,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,5,5,null,0,0,0
+1722477641769,3686,Kafka Producer,200,OK,Thread Group 1-3,text,true,,0,0,5,5,null,0,0,0
+1722477641570,3885,Kafka Producer,200,OK,Thread Group 1-2,text,true,,0,0,5,5,null,0,0,0
+1722477641970,3547,Kafka Producer,200,OK,Thread Group 1-4,text,true,,0,0,5,5,null,0,0,0
+1722477642170,4009,Kafka Producer,200,OK,Thread Group 1-5,text,true,,0,0,5,5,null,0,0,0
+1722477645474,7698,Kafka Consumer,200,OK,Thread Group 1-3,text,true,,0,0,5,5,null,0,0,0
+1722477645474,20272,Kafka Consumer,200,OK,Thread Group 1-2,text,true,,0,0,4,4,null,0,0,0
+1722477645517,20264,Kafka Consumer,200,OK,Thread Group 1-4,text,true,,0,0,3,3,null,0,0,0
+1722477645474,20316,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,2,2,null,0,0,0
+1722477646179,20104,Kafka Consumer,200,OK,Thread Group 1-5,text,true,,0,0,1,1,null,0,0,0
+1722478629320,4709,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,5,5,null,0,0,0
+1722478629703,4327,Kafka Producer,200,OK,Thread Group 1-3,text,true,,0,0,5,5,null,0,0,0
+1722478630102,3928,Kafka Producer,200,OK,Thread Group 1-5,text,true,,0,0,5,5,null,0,0,0
+1722478629902,4128,Kafka Producer,200,OK,Thread Group 1-4,text,true,,0,0,5,5,null,0,0,0
+1722478629503,4527,Kafka Producer,200,OK,Thread Group 1-2,text,true,,0,0,5,5,null,0,0,0
+1722478634050,12267,Kafka Consumer,200,OK,Thread Group 1-2,text,true,,0,0,5,5,null,0,0,0
+1722478634050,20484,Kafka Consumer,200,OK,Thread Group 1-5,text,true,,0,0,4,4,null,0,0,0
+1722478634050,20485,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,4,4,null,0,0,0
+1722478634050,20487,Kafka Consumer,200,OK,Thread Group 1-4,text,true,,0,0,3,3,null,0,0,0
+1722478634050,20623,Kafka Consumer,200,OK,Thread Group 1-3,text,true,,0,0,1,1,null,0,0,0
+1722479008020,4048,Kafka Producer,200,OK,Thread Group 1-2,text,true,,0,0,5,5,null,0,0,0
+1722479007827,4240,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,5,5,null,0,0,0
+1722479008219,3897,Kafka Producer,200,OK,Thread Group 1-3,text,true,,0,0,5,5,null,0,0,0
+1722479008419,3854,Kafka Producer,200,OK,Thread Group 1-4,text,true,,0,0,5,5,null,0,0,0
+1722479008619,3765,Kafka Producer,200,OK,Thread Group 1-5,text,true,,0,0,5,5,null,0,0,0
+1722479012082,12877,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,5,5,null,0,0,0
+1722479012084,20462,Kafka Consumer,200,OK,Thread Group 1-2,text,true,,0,0,4,4,null,0,0,0
+1722479012116,20433,Kafka Consumer,200,OK,Thread Group 1-3,text,true,,0,0,3,3,null,0,0,0
+1722479012274,20278,Kafka Consumer,200,OK,Thread Group 1-4,text,true,,0,0,2,2,null,0,0,0
+1722479012385,21342,Kafka Consumer,200,OK,Thread Group 1-5,text,true,,0,0,1,1,null,0,0,0
+1722480050438,3368,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722480053827,8598,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722481801170,1996,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722481803179,9212,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722515189564,14493,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722515204083,9929,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722515906070,4046,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722515910152,8488,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722516173078,3851,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722516176964,8768,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722516235775,3332,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722516239122,8718,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722517044291,2163,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722517046472,8393,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722517312324,12485,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722517324829,32026,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722517380209,13074,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722517393306,14985,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722518171599,71318,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722518242929,20272,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722518793506,75792,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722518869304,20248,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722518945099,80484,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722519025587,20273,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722519475729,79474,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722519555217,22038,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722519661526,73287,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722519734827,31589,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722520020434,73697,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722520094151,21028,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722520462363,81383,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722520543756,20405,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722520930974,62288,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722520993272,20372,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722563000405,2100,Kafka Producer,200,OK,Thread Group 1-2,text,true,,0,0,2,2,null,0,0,0
+1722562999910,2593,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,2,2,null,0,0,0
+1722563002517,8764,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,2,2,null,0,0,0
+1722563002517,22377,Kafka Consumer,200,OK,Thread Group 1-2,text,true,,0,0,1,1,null,0,0,0
+1722563388591,3149,Kafka Producer,200,OK,Thread Group 1-2,text,true,,0,0,2,2,null,0,0,0
+1722563388093,4314,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,2,2,null,0,0,0
+1722563391745,32913,Kafka Consumer,200,OK,Thread Group 1-2,text,true,,0,0,2,2,null,0,0,0
+1722563392408,40481,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722565058371,5686,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,2,2,null,0,0,0
+1722565064067,50,Kafka Consumer,500,"javax.script.ScriptException: org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script3.groovy: 39: The current scope already contains a variable of the name records
+ @ line 39, column 13.
+           def records = consumer.poll(Duration.ofSeconds(10))
+               ^
+
+1 error
+",Thread Group 1-1,text,false,,0,0,2,2,null,0,0,0
+1722565058863,5635,Kafka Producer,200,OK,Thread Group 1-2,text,true,,0,0,1,1,null,0,0,0
+1722565064498,25,Kafka Consumer,500,"javax.script.ScriptException: org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script4.groovy: 39: The current scope already contains a variable of the name records
+ @ line 39, column 13.
+           def records = consumer.poll(Duration.ofSeconds(10))
+               ^
+
+1 error
+",Thread Group 1-2,text,false,,0,0,1,1,null,0,0,0
+1722565112624,3671,Kafka Producer,200,OK,Thread Group 1-2,text,true,,0,0,2,2,null,0,0,0
+1722565116301,67,Kafka Consumer,500,"javax.script.ScriptException: org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script3.groovy: 39: The current scope already contains a variable of the name records
+ @ line 39, column 13.
+           def records = consumer.poll(Duration.ofSeconds(10))
+               ^
+
+1 error
+",Thread Group 1-2,text,false,,0,0,2,2,null,0,0,0
+1722565112131,4730,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722565116862,15,Kafka Consumer,500,"javax.script.ScriptException: org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script4.groovy: 39: The current scope already contains a variable of the name records
+ @ line 39, column 13.
+           def records = consumer.poll(Duration.ofSeconds(10))
+               ^
+
+1 error
+",Thread Group 1-1,text,false,,0,0,1,1,null,0,0,0
+1722565250395,3950,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,2,2,null,0,0,0
+1722565254350,95,Kafka Consumer,500,"javax.script.ScriptException: groovy.lang.MissingMethodException: No signature of method: Script3.consumeMessages() is applicable for argument types: (null, Integer) values: [null, 2]
+Possible solutions: consumeMessages(java.lang.Object)",Thread Group 1-1,text,false,,0,0,2,2,null,0,0,0
+1722565250888,5308,Kafka Producer,200,OK,Thread Group 1-2,text,true,,0,0,1,1,null,0,0,0
+1722565256198,9,Kafka Consumer,500,"javax.script.ScriptException: groovy.lang.MissingMethodException: No signature of method: Script3.consumeMessages() is applicable for argument types: (null, Integer) values: [null, 2]
+Possible solutions: consumeMessages(java.lang.Object)",Thread Group 1-2,text,false,,0,0,1,1,null,0,0,0
+1722565482667,3465,Kafka Producer,200,OK,Thread Group 1-2,text,true,,0,0,2,2,null,0,0,0
+1722565482172,5054,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,2,2,null,0,0,0
+1722565486141,32661,Kafka Consumer,500,javax.script.ScriptException: org.apache.kafka.common.errors.InvalidTopicException: Invalid topics: [invoice_status],Thread Group 1-2,text,false,,0,0,2,2,null,0,0,0
+1722565487228,81570,Kafka Consumer,500,javax.script.ScriptException: org.apache.kafka.common.errors.InvalidTopicException: Invalid topics: [invoice_status],Thread Group 1-1,text,false,,0,0,1,1,null,0,0,0
+1722565612465,3194,Kafka Producer,200,OK,Thread Group 1-2,text,true,,0,0,2,2,null,0,0,0
+1722565611963,4364,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,2,2,null,0,0,0
+1722565616327,89878,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,2,2,null,0,0,0
+1722565615664,148459,Kafka Consumer,200,OK,Thread Group 1-2,text,true,,0,0,1,1,null,0,0,0
+1722565854475,4111,Kafka Producer,200,OK,Thread Group 1-2,text,true,,0,0,2,2,null,0,0,0
+1722565853979,5571,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,2,2,null,0,0,0
+1722565858594,150392,Kafka Consumer,200,OK,Thread Group 1-2,text,true,,0,0,2,2,null,0,0,0
+1722565859551,150186,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722567936002,2121,Kafka Producer,200,OK,Thread Group 1-2,text,true,,0,0,2,2,null,0,0,0
+1722567935513,2609,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,2,2,null,0,0,0
+1722567938140,144515,Kafka Consumer,200,OK,Thread Group 1-2,text,true,,0,0,2,2,null,0,0,0
+1722567938140,144844,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722568499020,3026,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,2,2,null,0,0,0
+1722568499514,2533,Kafka Producer,200,OK,Thread Group 1-2,text,true,,0,0,2,2,null,0,0,0
+1722568502058,145043,Kafka Consumer,200,OK,Thread Group 1-2,text,true,,0,0,2,2,null,0,0,0
+1722568502060,145171,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722568802471,2834,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722568805319,148950,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722568954283,1162,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722568955446,140770,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722569528522,3153,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722570524571,2189,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722570931421,2182,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722570933620,18471,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722570952091,838,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722570952930,20456,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722571495785,2155,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722571497946,209324,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722571707274,866,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722571708141,200665,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722572254049,2133,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722572256196,208485,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722572464689,771,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722572465461,200542,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722573302431,2743,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722606282066,3685,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722608023531,2532,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722608026075,208860,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722608234939,1053,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722608235994,200603,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722612509215,934,Kafka Producer,500,"javax.script.ScriptException: org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script1.groovy: 71: Unexpected input: '"")\n\nThread.sleep(200)\n\nSampleResult.sampleEnd()\n          ' @ line 71, column 136.
+   T(System.currentTimeMillis())}"")
+                                 ^
+
+1 error
+",Thread Group 1-1,text,false,,0,0,1,1,null,0,0,0
+1722612510189,202388,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722612712580,157,Kafka Producer,500,"javax.script.ScriptException: org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script3.groovy: 71: Unexpected input: '"")\n\nThread.sleep(200)\n\nSampleResult.sampleEnd()\n          ' @ line 71, column 136.
+   T(System.currentTimeMillis())}"")
+                                 ^
+
+1 error
+",Thread Group 1-1,text,false,,0,0,1,1,null,0,0,0
+1722612712738,200831,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722626916904,1898,Kafka Producer,500,"javax.script.ScriptException: groovy.lang.MissingMethodException: No signature of method: java.util.Date.toISOString() is applicable for argument types: () values: []
+Possible solutions: toString(), toGMTString(), toString(), toString()",Thread Group 1-1,text,false,,0,0,1,1,null,0,0,0
+1722626918827,9811,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722626928639,10,Kafka Producer,500,"javax.script.ScriptException: groovy.lang.MissingMethodException: No signature of method: java.util.Date.toISOString() is applicable for argument types: () values: []
+Possible solutions: toString(), toGMTString(), toString(), toString()",Thread Group 1-1,text,false,,0,0,1,1,null,0,0,0
+1722626928649,200893,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722627437016,2938,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722627439967,200947,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722627640917,1021,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722627641939,200668,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722628141039,3193,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722628144244,200765,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722628345012,676,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722628345689,200555,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722629123237,565,Kafka Producer,500,"javax.script.ScriptException: org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script1.groovy: 50: Unexpected input: ':' @ line 50, column 14.
+     ""messageId"": uuid,
+                ^
+
+1 error
+",Thread Group 1-1,text,false,,0,0,1,1,null,0,0,0
+1722629216972,628,Kafka Producer,500,"javax.script.ScriptException: org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script1.groovy: 50: Unexpected input: ':' @ line 50, column 14.
+     ""messageId"": uuid,
+                ^
+
+1 error
+",Thread Group 1-1,text,false,,0,0,1,1,null,0,0,0
+1722629217610,201612,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722629419227,366,Kafka Producer,500,"javax.script.ScriptException: org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script3.groovy: 50: Unexpected input: ':' @ line 50, column 14.
+     ""messageId"": uuid,
+                ^
+
+1 error
+",Thread Group 1-1,text,false,,0,0,1,1,null,0,0,0
+1722629674100,1255,Kafka Producer,500,"javax.script.ScriptException: groovy.lang.MissingMethodException: No signature of method: java.util.Date.toISOString() is applicable for argument types: () values: []
+Possible solutions: toString(), toGMTString(), toString(), toString()",Thread Group 1-1,text,false,,0,0,1,1,null,0,0,0
+1722629884155,926,Kafka Producer,500,"javax.script.ScriptException: groovy.lang.MissingMethodException: No signature of method: java.util.Date.toISOString() is applicable for argument types: () values: []
+Possible solutions: toString(), toGMTString(), toString(), toString()",Thread Group 1-1,text,false,,0,0,1,1,null,0,0,0
+1722630058078,928,Kafka Producer,500,javax.script.ScriptException: groovy.lang.MissingMethodException: No signature of method: org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.getCurrentTimeInISO() is applicable for argument types: () values: [],Thread Group 1-1,text,false,,0,0,1,1,null,0,0,0
+1722630222391,2223,Kafka Producer,500,javax.script.ScriptException: org.apache.kafka.common.errors.SerializationException: Can't convert value of class org.codehaus.groovy.runtime.GStringImpl to class org.apache.kafka.common.serialization.StringSerializer specified in value.serializer,Thread Group 1-1,text,false,,0,0,1,1,null,0,0,0
+1722630224628,201005,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722630425646,310,Kafka Producer,500,javax.script.ScriptException: org.apache.kafka.common.errors.SerializationException: Can't convert value of class org.codehaus.groovy.runtime.GStringImpl to class org.apache.kafka.common.serialization.StringSerializer specified in value.serializer,Thread Group 1-1,text,false,,0,0,1,1,null,0,0,0
+1722630425956,200675,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722631196800,6371,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722631203228,201506,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722631404738,2152,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722631505895,16896,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722631522824,202144,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722631724972,926,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722631725900,200686,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722632326387,14389,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722632340803,202211,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722632543017,1560,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722632718944,5927,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722632724900,205996,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722632930903,1326,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722633121245,7898,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722633235342,7541,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722633242919,175745,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722633418667,811,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722633602973,12959,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722633615961,205979,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722633821943,747,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722633822691,388603,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722705508184,2731,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722705510931,208635,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722705719563,711,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722705720288,200629,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722714465443,889,Kafka Producer,500,"javax.script.ScriptException: groovy.lang.MissingMethodException: No signature of method: java.util.Date.toISOString() is applicable for argument types: () values: []
+Possible solutions: toString(), toGMTString(), toString(), toString()",Thread Group 1-1,text,false,,0,0,1,1,null,0,0,0
+1722714466342,201183,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722714667527,3,Kafka Producer,500,"javax.script.ScriptException: groovy.lang.MissingMethodException: No signature of method: java.util.Date.toISOString() is applicable for argument types: () values: []
+Possible solutions: toString(), toGMTString(), toString(), toString()",Thread Group 1-1,text,false,,0,0,1,1,null,0,0,0
+1722714883255,736,Kafka Producer,500,"javax.script.ScriptException: groovy.lang.MissingMethodException: No signature of method: java.util.Date.toISOString() is applicable for argument types: () values: []
+Possible solutions: toString(), toGMTString(), toString(), toString()",Thread Group 1-1,text,false,,0,0,1,1,null,0,0,0
+1722714884000,201160,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722715085179,31,Kafka Producer,500,"javax.script.ScriptException: groovy.lang.MissingMethodException: No signature of method: java.util.Date.toISOString() is applicable for argument types: () values: []
+Possible solutions: toString(), toGMTString(), toString(), toString()",Thread Group 1-1,text,false,,0,0,1,1,null,0,0,0
+1722715184810,750,Kafka Producer,500,"javax.script.ScriptException: groovy.lang.MissingMethodException: No signature of method: java.util.Date.toISOString() is applicable for argument types: () values: []
+Possible solutions: toString(), toGMTString(), toString(), toString()",Thread Group 1-1,text,false,,0,0,1,1,null,0,0,0
+1722715300431,666,Kafka Producer,500,"javax.script.ScriptException: groovy.lang.MissingMethodException: No signature of method: java.util.Date.toISOString() is applicable for argument types: () values: []
+Possible solutions: toString(), toGMTString(), toString(), toString()",Thread Group 1-1,text,false,,0,0,1,1,null,0,0,0
+1722715301105,200956,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722715502076,16,Kafka Producer,500,"javax.script.ScriptException: groovy.lang.MissingMethodException: No signature of method: java.util.Date.toISOString() is applicable for argument types: () values: []
+Possible solutions: toString(), toGMTString(), toString(), toString()",Thread Group 1-1,text,false,,0,0,1,1,null,0,0,0
+1722715502093,200652,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722716893782,6520,Kafka Producer,500,"javax.script.ScriptException: groovy.lang.MissingMethodException: No signature of method: java.util.Date.toISOString() is applicable for argument types: () values: []
+Possible solutions: toString(), toGMTString(), toString(), toString()",Thread Group 1-1,text,false,,0,0,1,1,null,0,0,0
+1722716900318,202208,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722717102528,14,Kafka Producer,500,"javax.script.ScriptException: groovy.lang.MissingMethodException: No signature of method: java.util.Date.toISOString() is applicable for argument types: () values: []
+Possible solutions: toString(), toGMTString(), toString(), toString()",Thread Group 1-1,text,false,,0,0,1,1,null,0,0,0
+1722717102543,200698,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722717498990,6258,Kafka Producer,500,"javax.script.ScriptException: groovy.lang.MissingMethodException: No signature of method: java.util.Date.toISOString() is applicable for argument types: () values: []
+Possible solutions: toString(), toGMTString(), toString(), toString()",Thread Group 1-1,text,false,,0,0,1,1,null,0,0,0
+1722717612044,2402,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722717614460,168034,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722717782501,758,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722717783260,208343,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722718795165,2483,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722718797671,208216,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722719005888,712,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722719006600,208244,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722719740806,2449,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722719743262,208471,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722719951733,1018,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722719952751,208343,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722720161096,791,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722720161889,208367,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722720370257,828,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722720371086,208057,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722720579146,774,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722720579922,208469,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722721080772,2382,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722721083166,208341,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722721291512,735,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722721292248,209202,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722721501460,821,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722721502284,208383,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722721710675,874,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722721711550,208303,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722721919856,714,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722721920706,208195,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722722128905,681,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722722129587,208571,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722722338158,854,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722722339012,208103,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722722547119,751,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722722547873,208271,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722722756147,966,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722722757113,208376,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722722965491,670,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722722966162,208530,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722726165337,2640,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722726168001,209249,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722726377250,897,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722726378147,208759,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722726586906,898,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722726587805,208601,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722726796408,976,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722726797385,208299,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722727005688,919,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722732165777,8013,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722732173824,210001,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722732383831,732,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722737178316,2451,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722737180774,209282,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722737390059,828,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722737390888,210849,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722737601741,2404,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722737604145,211551,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722737815699,5127,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722737820843,171212,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722737992059,3772,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722737995834,123937,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722741719851,5914,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722741725776,214512,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722741940289,831,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722741941120,208629,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722742149751,808,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722742150561,208625,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722742359186,1022,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722742360208,208491,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722742568699,897,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722742569597,208413,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722742778010,827,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722742778837,208791,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722742987630,665,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722742988295,209142,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722743197439,850,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722743198289,208179,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722743406471,964,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722743407435,208515,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722743615956,844,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722743616803,208899,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722743825708,857,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722743826566,208405,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722744034975,843,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722744035819,208712,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722744244535,882,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722744245417,208385,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722744453806,937,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722744454743,208619,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722744663402,1020,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722744664423,208533,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722744872962,649,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722744873611,207978,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722745081592,767,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722745082359,207918,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722745290284,665,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722745290949,208417,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722745499369,757,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722745500182,208443,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722745708628,865,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722745709494,208330,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722745917827,749,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722745918576,208509,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722746127089,749,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722746127839,208421,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722746336263,935,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722746337199,208843,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722746546044,975,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722746547019,209235,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722746756256,982,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722746757239,208640,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722746965882,988,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722746966871,208278,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722747175150,991,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722747176142,208419,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722747384563,755,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722747385320,208103,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722747593424,718,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722747594142,207961,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722747802104,652,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722747802757,27880083,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722775682847,593389,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722776276237,200384,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722776476621,72941,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722776549564,200380,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722776749945,75882,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722776825831,200413,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722777026245,74486,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722777100733,183705,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722777284437,1496,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722777521756,3208,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722777524979,208909,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722777733889,468,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722777734357,208119,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722778216243,2993,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722778219245,208432,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722778427690,509,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722778428200,208010,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722778636223,656,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722778636880,208023,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722778844913,612,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722778845526,207786,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722779053322,506,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722779053829,207985,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722779529653,3211,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722779532873,208451,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722779741335,629,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722779741964,208013,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722779949984,524,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722779950509,208122,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722780158638,719,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722780159358,208883,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722780368249,594,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722780368843,208039,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722780576888,575,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722780577464,208027,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722780785505,606,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722780955880,2253,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722780958142,171104,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722781129251,619,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722781129871,208116,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722781337993,492,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722781338486,207999,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722781546490,1098,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722781547589,208176,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722781755772,594,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722781756366,208439,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722781964811,1177,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722781965989,208487,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722782174482,668,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722782175150,209906,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722782385061,531,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722782385592,209203,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722782594801,841,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722782595642,208458,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722782804103,536,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722782804640,208011,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722783237221,2170,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722783239400,208415,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722783447817,714,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722783448532,208144,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722783656681,496,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722783657178,208009,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722783865191,543,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722783865735,208007,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722784073745,618,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722784074364,207904,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722784282270,586,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722784282857,208046,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722784490907,534,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722784491441,208061,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722784699506,579,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722784700085,208343,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722784908431,567,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722784908998,208081,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722785117083,527,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722785117610,208086,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722785325700,672,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722785326372,208031,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722785534407,662,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722785535069,208709,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722785743781,638,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722785744420,208001,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722785952424,544,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722785952970,208189,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722786161163,514,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722786161678,208422,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722786370103,714,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722786370817,207798,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722786578618,769,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722786579387,208447,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722786787839,1915,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722786789754,208386,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722786998144,538,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722786998683,208009,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722787206695,622,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722787207317,208032,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722787415360,595,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722787415956,207982,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722787623950,521,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722787624473,208015,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722787832493,655,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722787833149,208057,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722788041211,476,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722788041688,208269,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722788249962,508,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722788250475,207732,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722788458211,591,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722788458803,207877,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722788666684,654,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722788667339,208001,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722788875343,495,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722788875839,207808,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722789083649,642,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722789084292,208065,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722789292361,436,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722789292798,208076,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722789500878,524,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722789501403,207734,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722789709140,578,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722789709718,207937,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722789917659,517,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722789918177,208061,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722790126240,529,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722790126770,207795,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722790334569,542,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722790335114,207860,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722790542977,1038,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722790544015,725322,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722791269339,991,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722791270331,209171,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722791479503,675,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722791480178,207772,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722791687950,598,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722791688549,208253,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722791896803,667,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722791897470,207929,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722792105400,431,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722792105832,207957,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722792313789,628,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722792314418,14167581,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722806482002,80169,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722806562171,183195,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722806745367,37333,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722806782700,203997,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722806986697,746,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722807105009,2099,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722807107120,637558,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722807744678,592,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722807745270,5927728,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722813673011,57018,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722814707717,2687,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722814710421,28534,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722819455312,3354,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722820556569,2267,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722820558846,1209364,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722821768232,3802,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722885945693,3176,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722885948892,208620,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722886157514,498,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722886158013,209257,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722887939862,6187,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722887946089,209328,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722888155453,2243,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722888157697,95705,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722888253403,1019,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722888254425,22020,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722888276446,646,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722888277093,21108,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722888298202,567,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722888298769,23183,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722888675596,5753,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722888681377,110233,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722888791611,625,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722888792236,208648,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722889000887,672,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722889001559,138727,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722889140293,749,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722889141042,207984,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722889349029,544,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722889349573,208046,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722890129582,2532,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722890132130,208460,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722890340593,573,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722890341167,207844,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722890549013,523,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722890549536,208020,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722890757557,714,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722890758271,208193,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722890966467,559,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722890967027,208138,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722891175166,595,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722891175762,208308,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722891384073,740,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722891384814,208016,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722891592834,651,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722891593486,209283,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722891802772,646,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722891803418,209009,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722892012431,904,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722892013335,208408,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722892759685,2657,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722892762358,27736,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722894784058,3466,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722894787539,8557,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722895259842,2825,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722895262683,9121,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722895474271,3938,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722895478257,209616,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722895687876,640,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1722895688517,208356,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1723043611968,3615,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1723043615649,8901,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1723044901617,4966,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1723044906601,8662,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1723045678280,3169,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1723045681567,8471,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1723045815350,3005,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1723045818490,8254,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1723046417253,4303,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1723046421699,9130,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1723046609177,3292,2024-08-07 12:03:29.177,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1723046612583,9485,2024-08-07 12:03:32.583,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1723047026148,2848,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1723047029112,9478,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1723047307137,2515,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1723047309744,8539,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1723047982403,2676,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1723047985166,8326,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1723048166217,2688,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1723048168993,8195,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1723048431316,2488,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1723048433899,9928,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1723050083414,15958,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1723050099812,11609,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1723051289575,2285,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1723051291930,8782,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1723051785795,3064,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1723051789766,9453,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1723052149033,3091,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1723052152225,12228,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1723052648298,2589,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1723052651000,8239,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1723052838098,2920,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1723052841084,8933,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+2024/08/07 14:05:37.138,5676,Kafka Producer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+2024/08/07 14:05:43.174,11000,Kafka Consumer,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+2024/08/07 14:18:46.237,3820,Kafka Producer,200,OK,Thread Group 1-1,text,true,0,0,1,1,null,0,0,0
+2024/08/07 14:18:50.201,8804,Kafka Consumer,200,OK,Thread Group 1-1,text,true,0,0,1,1,null,0,0,0
+2024/08/07 14:23:05.198,3356,Kafka Producer,200,OK,Thread Group 1-1,text,true,0,0,1,1,null,0,0,0
+2024/08/07 14:23:08.742,8311,Kafka Consumer,200,OK,Thread Group 1-1,text,true,0,0,1,1,null,0,0,0
+2024/08/07 14:27:57.921,8552,Kafka Producer,200,OK,Thread Group 1-1,text,true,0,0,1,1,null,0,0,0
+2024/08/07 14:28:06.602,8556,Kafka Consumer,200,OK,Thread Group 1-1,text,true,0,0,1,1,null,0,0,0
+2024/08/07 14:30:04.993,3991,Kafka Producer,200,OK,Thread Group 1-1,text,true,0,0,1,1,null,0,0,0
+2024/08/07 14:30:09.139,11210,Kafka Consumer,200,OK,Thread Group 1-1,text,true,0,0,1,1,null,0,0,0
+2024/08/07 14:33:12.909,4458,Kafka Producer,200,OK,Thread Group 1-1,text,true,0,0,1,1,null,0,0,0
+2024/08/07 14:33:17.384,9069,Kafka Consumer,200,OK,Thread Group 1-1,text,true,0,0,1,1,null,0,0,0
+2024/08/07 14:38:16.925,3803,Kafka Producer,200,OK,Thread Group 1-1,text,true,0,0,1,1,null,0,0,0
+2024/08/07 14:38:20.741,8329,Kafka Consumer,200,OK,Thread Group 1-1,text,true,0,0,1,1,null,0,0,0
+2024/08/07 15:09:23.113,2332,Kafka Producer,200,OK,Thread Group 1-1,text,true,0,0,1,1,null,0,0,0
+2024/08/07 15:09:25.445,8437,Kafka Consumer,200,OK,Thread Group 1-1,text,true,0,0,1,1,null,0,0,0
+2024/08/07 15:49:51.144,3492,Kafka Producer,200,OK,Thread Group 1-1,text,true,0,0,1,1,null,0,0,0
+2024/08/07 15:49:54.649,8421,Kafka Consumer,200,OK,Thread Group 1-1,text,true,0,0,1,1,null,0,0,0
+2024/08/07 16:05:26.640,3797,Kafka Producer,200,OK,Thread Group 1-1,text,true,0,0,1,1,null,0,0,0
+2024/08/07 16:05:30.447,10618,Kafka Consumer,200,OK,Thread Group 1-1,text,true,0,0,1,1,null,0,0,0
+2024/08/07 16:22:49.461,3097,Kafka Producer,200,OK,Thread Group 1-1,text,true,0,0,1,1,null,0,0,0
+2024/08/07 16:22:52.617,8522,Kafka Consumer,200,OK,Thread Group 1-1,text,true,0,0,1,1,null,0,0,0
+2024/08/07 16:33:47.932,5243,Kafka Producer,200,OK,Thread Group 1-1,text,true,0,0,1,1,null,0,0,0
+2024/08/07 16:33:53.262,8477,Kafka Consumer,200,OK,Thread Group 1-1,text,true,0,0,1,1,null,0,0,0
+2024/08/07 16:53:46.468,5855,Kafka Producer,200,OK,Thread Group 1-1,text,true,0,0,1,1,null,0,0,0
+2024/08/07 16:53:52.436,10420,Kafka Consumer,200,OK,Thread Group 1-1,text,true,0,0,1,1,null,0,0,0
+2024/08/07 17:01:42.091,13372,Kafka Producer,200,OK,Thread Group 1-1,text,true,0,0,1,1,null,0,0,0
+2024/08/07 17:01:55.935,10155,Kafka Consumer,200,OK,Thread Group 1-1,text,true,0,0,1,1,null,0,0,0
+2024/08/07 17:09:42.123,7700,Kafka Producer,200,OK,Thread Group 1-1,text,true,0,0,1,1,null,0,0,0
+2024/08/07 17:09:49.841,10255,Kafka Consumer,200,OK,Thread Group 1-1,text,true,0,0,1,1,null,0,0,0
+2024/08/07 18:10:55.443,3114,Kafka Producer,200,OK,Thread Group 1-1,text,true,0,0,1,1,null,0,0,0
+2024/08/07 18:10:58.557,8645,Kafka Consumer,200,OK,Thread Group 1-1,text,true,0,0,1,1,null,0,0,0
+2024/08/07 21:18:21.354,8358,Kafka Producer,200,OK,Thread Group 1-1,text,true,0,0,1,1,null,0,0,0
+2024/08/07 21:18:29.730,217999,Kafka Consumer,200,OK,Thread Group 1-1,text,true,0,0,1,1,null,0,0,0
+2024/08/07 21:22:07.727,3358,Kafka Producer,200,OK,Thread Group 1-1,text,true,0,0,1,1,null,0,0,0
+2024/08/07 21:22:11.087,211207,Kafka Consumer,200,OK,Thread Group 1-1,text,true,0,0,1,1,null,0,0,0
+2024/08/07 21:37:06.061,2040,Kafka Producer,200,OK,Thread Group 1-1,text,true,0,0,1,1,null,0,0,0
+2024/08/07 21:37:08.103,208938,Kafka Consumer,200,OK,Thread Group 1-1,text,true,0,0,1,1,null,0,0,0
+2024/08/07 21:40:37.041,526,Kafka Producer,200,OK,Thread Group 1-1,text,true,0,0,1,1,null,0,0,0
+2024/08/07 21:40:37.567,210014,Kafka Consumer,200,OK,Thread Group 1-1,text,true,0,0,1,1,null,0,0,0
+2024/08/07 21:44:07.579,543,Kafka Producer,200,OK,Thread Group 1-1,text,true,0,0,1,1,null,0,0,0
+2024/08/07 21:44:08.122,207840,Kafka Consumer,200,OK,Thread Group 1-1,text,true,0,0,1,1,null,0,0,0
+2024/08/07 21:47:35.968,739,Kafka Producer,200,OK,Thread Group 1-1,text,true,0,0,1,1,null,0,0,0
+2024/08/07 21:47:36.708,209372,Kafka Consumer,200,OK,Thread Group 1-1,text,true,0,0,1,1,null,0,0,0
+2024/08/07 21:51:06.077,1146,Kafka Producer,200,OK,Thread Group 1-1,text,true,0,0,1,1,null,0,0,0
+2024/08/07 21:51:07.223,209095,Kafka Consumer,200,OK,Thread Group 1-1,text,true,0,0,1,1,null,0,0,0

@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.4.1">
+  <hashTree>
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Test Plan" enabled="true">
+      <stringProp name="TestPlan.comments"></stringProp>
+      <boolProp name="TestPlan.functional_mode">false</boolProp>
+      <boolProp name="TestPlan.tearDown_on_shutdown">true</boolProp>
+      <boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
+      <elementProp name="TestPlan.user_defined_variables" elementType="Arguments">
+        <collectionProp name="Arguments.arguments">
+          <elementProp name="udv_bootstrap_servers" elementType="Argument">
+            <stringProp name="Argument.name">udv_bootstrap_servers</stringProp>
+            <stringProp name="Argument.value">b-1.mskqa.cy8z3n.c13.kafka.us-east-1.amazonaws.com:9096,b-2.mskqa.cy8z3n.c13.kafka.us-east-1.amazonaws.com:9096</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="udv_security_protocol" elementType="Argument">
+            <stringProp name="Argument.name">udv_security_protocol</stringProp>
+            <stringProp name="Argument.value">SASL_SSL</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="udv_sasl_mechanism" elementType="Argument">
+            <stringProp name="Argument.name">udv_sasl_mechanism</stringProp>
+            <stringProp name="Argument.value">SCRAM-SHA-512</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="udv_sasl_jaas_config_user" elementType="Argument">
+            <stringProp name="Argument.name">udv_sasl_jaas_config_user</stringProp>
+            <stringProp name="Argument.value">develop</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="udv_sasl_jaas_config_password" elementType="Argument">
+            <stringProp name="Argument.name">udv_sasl_jaas_config_password</stringProp>
+            <stringProp name="Argument.value">z3PhuNGqeh52YpUJcv</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="udv_kafka_topic" elementType="Argument">
+            <stringProp name="Argument.name">udv_kafka_topic</stringProp>
+            <stringProp name="Argument.value">ip.documents</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="udv_relative_file_path" elementType="Argument">
+            <stringProp name="Argument.name">udv_relative_file_path</stringProp>
+            <stringProp name="Argument.value">
+ {
+  "messageId": "${__UUID()}",
+  "timestamp": 1716577636843,
+  "eventType": "DocumentCreated",
+  "correlationId": "${__UUID()}",
+  "compression": null,
+  "ContentType": "json",
+  "clientId": "Looktest",
+  "version": "1.0",
+  "supplierId": "${__UUID()}",
+  "buyerId": "${__UUID()}",
+  "origin": "integration-platform",
+  "payload": {
+    "transactionId": "${__UUID()}",
+    "documentNumber": "sanikaLoadtest Document to CDS ${__UUID()}",
+    "s3Bucket": "invoice-data-attach",
+    "s3Key": "InvoiceAttachments-Dev/dropoff/${__UUID()}",
+    "documentType": "invoice",
+    "cxml": "&lt;cXML xml:lang='en-US' timestamp='${__time(yyyy-MM-dd'T'HH:mm:ss.SSSZ,)}' payloadID='${__UUID()}@prd1246utl2.int.coupa'&gt;&lt;Header&gt;&lt;From&gt;&lt;Credential domain='DUNS'&gt;&lt;Identity&gt;Corcentric&lt;/Identity&gt;&lt;/Credential&gt;&lt;/From&gt;&lt;To&gt;&lt;Credential domain='NetworkID'&gt;&lt;Identity&gt;CLIENT&lt;/Identity&gt;&lt;/Credential&gt;&lt;/To&gt;&lt;Sender&gt;&lt;Credential domain='DUNS'&gt;&lt;Identity&gt;Corcentric&lt;/Identity&gt;&lt;SharedSecret&gt;Welcome1&lt;/SharedSecret&gt;&lt;/Credential&gt;&lt;UserAgent&gt;PurchaseManager&lt;/UserAgent&gt;&lt;/Sender&gt;&lt;/Header&gt;&lt;Request deploymentMode='production'&gt;&lt;InvoiceDetailRequest&gt;&lt;InvoiceDetailRequestHeader invoiceID='${__UUID()}' purpose='standard' operation='new' invoiceDate='${__time(yyyy-MM-dd'T'HH:mm:ss.SSSZ,)}'&gt;&lt;InvoiceDetailHeaderIndicator/&gt;&lt;InvoiceDetailLineIndicator/&gt;&lt;InvoicePartner&gt;&lt;Contact role='billFrom' addressID='CorcProd'&gt;&lt;Name xml:lang='en-US'&gt;Pinnacle Fleet Solutions&lt;/Name&gt;&lt;PostalAddress name='Pinnacle Fleet Solutions'&gt;&lt;Street&gt;62861 Collections Center Drive&lt;/Street&gt;&lt;City&gt;Chicago&lt;/City&gt;&lt;State&gt;IL&lt;/State&gt;&lt;PostalCode&gt;60693&lt;/PostalCode&gt;&lt;Country isoCountryCode='PL'&gt;Poland&lt;/Country&gt;&lt;/PostalAddress&gt;&lt;/Contact&gt;&lt;/InvoicePartner&gt;&lt;InvoicePartner&gt;&lt;Contact role='billTo' addressID='RW132'&gt;&lt;Name xml:lang='en-US'&gt;CLIENT National Serv&lt;/Name&gt;&lt;PostalAddress name='CLIENT National Serv'&gt;&lt;Street&gt;P.O. Box # 6700&lt;/Street&gt;&lt;City&gt;PORTLAND&lt;/City&gt;&lt;State&gt;OR&lt;/State&gt;&lt;PostalCode&gt;97228-6700&lt;/PostalCode&gt;&lt;Country isoCountryCode='US'&gt;United States&lt;/Country&gt;&lt;/PostalAddress&gt;&lt;/Contact&gt;&lt;/InvoicePartner&gt;&lt;InvoiceDetailShipping&gt;&lt;Contact role='shipTo' addressID='RW132'&gt;&lt;Name xml:lang='en-US'&gt;Amex Traders&lt;/Name&gt;&lt;PostalAddress name='Amex Traders'&gt;&lt;Street&gt;P.O. Box # 6701&lt;/Street&gt;&lt;City&gt;MARYLAND&lt;/City&gt;&lt;State&gt;GA&lt;/State&gt;&lt;PostalCode&gt;30005&lt;/PostalCode&gt;&lt;Country isoCountryCode='US'&gt;United States&lt;/Country&gt;&lt;/PostalAddress&gt;&lt;/Contact&gt;&lt;Contact role='shipFrom' addressID='RW132'&gt;&lt;Name xml:lang='en-US'&gt;Happy Shipping Co&lt;/Name&gt;&lt;PostalAddress name='Happy Shipping Co'&gt;&lt;Street&gt;P.O. Box # 6702&lt;/Street&gt;&lt;City&gt;GREENLAND&lt;/City&gt;&lt;State&gt;CA&lt;/State&gt;&lt;PostalCode&gt;27801-67879&lt;/PostalCode&gt;&lt;Country isoCountryCode='PL'&gt;Poland&lt;/Country&gt;&lt;/PostalAddress&gt;&lt;/Contact&gt;&lt;/InvoiceDetailShipping&gt;&lt;InvoiceDetailPaymentTerm payInNumberOfDays='45' percentageRate='0'/&gt;&lt;/InvoiceDetailRequestHeader&gt;&lt;InvoiceDetailOrder&gt;&lt;InvoiceDetailOrderInfo&gt;&lt;OrderReference&gt;&lt;DocumentReference payloadID='13554341'/&gt;&lt;/OrderReference&gt;&lt;/InvoiceDetailOrderInfo&gt;&lt;InvoiceDetailItem invoiceLineNumber='1' quantity='1.0000'&gt;&lt;UnitOfMeasure&gt;EA&lt;/UnitOfMeasure&gt;&lt;UnitPrice&gt;&lt;Money currency='USD'&gt;249.9900&lt;/Money&gt;&lt;/UnitPrice&gt;&lt;InvoiceDetailItemReference lineNumber='2'&gt;&lt;ItemID&gt;&lt;SupplierPartID&gt;77922&lt;/SupplierPartID&gt;&lt;SupplierPartAuxiliaryID&gt;XX77922&lt;/SupplierPartAuxiliaryID&gt;&lt;/ItemID&gt;&lt;Description xml:lang='en-US'&gt;SOME BIG PART&lt;/Description&gt;&lt;/InvoiceDetailItemReference&gt;&lt;SubtotalAmount&gt;&lt;Money currency='USD'&gt;249.99&lt;/Money&gt;&lt;/SubtotalAmount&gt;&lt;/InvoiceDetailItem&gt;&lt;InvoiceDetailItem invoiceLineNumber='2' quantity='1.0000'&gt;&lt;UnitOfMeasure&gt;EA&lt;/UnitOfMeasure&gt;&lt;UnitPrice&gt;&lt;Money currency='USD'&gt;160.9900&lt;/UnitPrice&gt;&lt;InvoiceDetailItemReference lineNumber='3'&gt;&lt;ItemID&gt;&lt;SupplierPartID&gt;77923&lt;/SupplierPartID&gt;&lt;SupplierPartAuxiliaryID&gt;XX77923&lt;/SupplierPartAuxiliaryID&gt;&lt;/ItemID&gt;&lt;Description xml:lang='en-US'&gt;SOME SMALL PART&lt;/Description&gt;&lt;/InvoiceDetailItemReference&gt;&lt;SubtotalAmount&gt;&lt;Money currency='USD'&gt;160.99&lt;/Money&gt;&lt;/SubtotalAmount&gt;&lt;/InvoiceDetailItem&gt;&lt;InvoiceDetailItem invoiceLineNumber='3' quantity='1.0000'&gt;&lt;UnitOfMeasure&gt;EA&lt;/UnitOfMeasure&gt;&lt;UnitPrice&gt;&lt;Money currency='USD'&gt;121.9900&lt;/Money&gt;&lt;/UnitPrice&gt;&lt;InvoiceDetailItemReference lineNumber='4'&gt;&lt;ItemID&gt;&lt;SupplierPartID&gt;77921&lt;/SupplierPartID&gt;&lt;SupplierPartAuxiliaryID&gt;XXX77921&lt;/SupplierPartAuxiliaryID&gt;&lt;/ItemID&gt;&lt;Description xml:lang='en-US'&gt;SOMETHING ELSE&lt;/Description&gt;&lt;/InvoiceDetailItemReference&gt;&lt;SubtotalAmount&gt;&lt;Money currency='USD'&gt;121.99&lt;/Money&gt;&lt;/SubtotalAmount&gt;&lt;/InvoiceDetailItem&gt;&lt;/InvoiceDetailOrder&gt;&lt;InvoiceDetailSummary&gt;&lt;SubtotalAmount&gt;&lt;Money currency='USD'&gt;532.9700&lt;/Money&gt;&lt;/SubtotalAmount&gt;&lt;Tax&gt;&lt;Money currency='USD'&gt;0.00&lt;/Money&gt;&lt;Description xml:lang='en-US'&gt;tax&lt;/Description&gt;&lt;TaxDetail purpose='tax' category='sales'&gt;&lt;TaxAmount&gt;&lt;Money currency='USD'&gt;0.00&lt;/Money&gt;&lt;/TaxAmount&gt;&lt;Description xml:lang='en-US'&gt;tax&lt;/Description&gt;&lt;/TaxDetail&gt;&lt;/Tax&gt;&lt;SpecialHandlingAmount&gt;&lt;Money currency='USD'&gt;0.00&lt;/Money&gt;&lt;/SpecialHandlingAmount&gt;&lt;ShippingAmount&gt;&lt;Money currency='USD'&gt;0.00&lt;/ShippingAmount&gt;&lt;NetAmount&gt;&lt;Money currency='USD'&gt;532.9700&lt;/Money&gt;&lt;/NetAmount&gt;&lt;/InvoiceDetailSummary&gt;&lt;/InvoiceDetailRequest&gt;&lt;/Request&gt;&lt;/cXML&gt;"
+      "attachments": [
+      {
+        "Id": "${__UUID()}",
+        "Url": "s3Url${__UUID()}"
+      },
+      {
+        "Id": "${__UUID()}",
+        "Url": "s3Url${__UUID()}"
+      }
+    ]
+  }
+}
+</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+        </collectionProp>
+      </elementProp>
+      <stringProp name="TestPlan.user_define_classpath"></stringProp>
+    </TestPlan>
+    <hashTree>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Thread Group" enabled="true">
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+          <stringProp name="LoopController.loops">1</stringProp>
+        </elementProp>
+        <stringProp name="ThreadGroup.num_threads">1</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">1</stringProp>
+        <longProp name="ThreadGroup.start_time">1626432181000</longProp>
+        <longProp name="ThreadGroup.end_time">1626432181000</longProp>
+        <boolProp name="ThreadGroup.scheduler">false</boolProp>
+        <stringProp name="ThreadGroup.duration"></stringProp>
+        <stringProp name="ThreadGroup.delay"></stringProp>
+      </ThreadGroup>
+      <hashTree>
+        <JSR223Sampler guiclass="TestBeanGUI" testclass="JSR223Sampler" testname="JSR223 Sampler" enabled="true">
+          <stringProp name="scriptLanguage">groovy</stringProp>
+          <stringProp name="parameters"></stringProp>
+          <stringProp name="filename"></stringProp>
+          <stringProp name="script">
+          
+import org.apache.kafka.clients.producer.*
+import org.apache.kafka.clients.CommonClientConfigs
+import org.apache.kafka.common.config.SaslConfigs
+import groovy.json.JsonBuilder
+import java.util.Properties
+
+def props = new Properties()
+
+//Properties props = new Properties();
+props.put("bootstrap.servers", vars.get("udv_bootstrap_servers"));
+props.put("security.protocol", vars.get("udv_security_protocol"));
+props.put("sasl.mechanism", vars.get("udv_sasl_mechanism"));
+props.put("sasl.jaas.config", "org.apache.kafka.common.security.scram.ScramLoginModule required username=\"" + vars.get("udv_sasl_jaas_config_user") + "\" password=\"" + vars.get("udv_sasl_jaas_config_password") + "\";");
+props.put("key.serializer", "org.apache.kafka.common.serialization.StringSerializer");
+props.put("value.serializer", "org.apache.kafka.common.serialization.StringSerializer");
+
+
+
+
+
+import org.apache.kafka.clients.producer.KafkaProducer
+import org.apache.kafka.clients.producer.Producer
+import org.apache.kafka.clients.producer.ProducerRecord
+import org.apache.kafka.common.serialization.StringSerializer
+import java.util.Properties
+import java.util.UUID
+import org.apache.kafka.clients.consumer.ConsumerConfig
+import org.apache.kafka.clients.consumer.ConsumerRecord
+import org.apache.kafka.clients.consumer.KafkaConsumer
+import org.apache.kafka.common.serialization.StringDeserializer
+import groovy.json.JsonBuilder
+import groovy.json.JsonSlurper // Added import for JsonSlurper
+import java.util.Collections
+import java.util.Properties
+import java.util.Arrays
+
+
+
+
+//def myconsumer = new KafkaConsumer&lt;String, String&gt;(myprops)
+
+// Define topics to consume
+//def topics = ["cds.invoice","invoice.status"]
+
+    // Generate a new UUID
+    def myUUID = UUID.randomUUID().toString()
+
+    def iso8601 = { -&gt; new java.text.SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSSXXX").format(new Date()) }
+
+
+    // Create a JSON object
+    def json = new JsonBuilder()
+    json {
+        data myUUID
+        schemaType "SCHEMA_TYPE_STRING"
+    }
+
+
+def producer = new KafkaProducer&lt;String, String&gt;(props)
+// Generate a new UUID for the key using JMeter's built-in function
+def key = vars.get('__UUID()')
+
+
+def topic = vars.get("udv_kafka_topic")
+def value = vars.get("udv_relative_file_path")
+
+def record = new ProducerRecord&lt;String, String&gt;(topic, value)
+producer.send(record)
+//producer.send (key)
+producer.close()
+
+// Create Kafka consumer
+//def consumer =new KafkaConsumer&lt;String, String&gt;(myprops, new StringDeserializer(), new StringDeserializer())
+
+
+// Subscribe to topics
+//consumer.subscribe(topics)
+
+// Poll for messages
+//def messages = consumer.poll(1000)
+
+//messages.each { message -&gt;
+   // def deserializedValue = new groovy.json.JsonSlurper().parseText(message.value())
+  //  log.info("Received message: key = ${message.key()}, value = ${deserializedValue}")
+//}
+
+
+
+// Define Kafka consumer properties
+def myprops = new Properties()
+myprops.put(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG, vars.get("udv_bootstrap_servers"))
+//myprops.put(ConsumerConfig.SECURITY_PROTOCOL_CONFIG, vars.get("udv_security_protocol"))
+myprops.put("security.protocol", vars.get("udv_security_protocol"))
+myprops.put("sasl.mechanism", vars.get("udv_sasl_mechanism"))
+myprops.put("sasl.jaas.config", "org.apache.kafka.common.security.scram.ScramLoginModule required username=\"" + vars.get("udv_sasl_jaas_config_user") + "\" password=\"" + vars.get("udv_sasl_jaas_config_password") + "\";")
+myprops.put(ConsumerConfig.KEY_DESERIALIZER_CLASS_CONFIG, "org.apache.kafka.common.serialization.StringDeserializer")
+myprops.put(ConsumerConfig.VALUE_DESERIALIZER_CLASS_CONFIG, "org.apache.kafka.common.serialization.StringDeserializer")
+myprops.put(ConsumerConfig.GROUP_ID_CONFIG, "test-consumer-group")
+myprops.put(ConsumerConfig.AUTO_OFFSET_RESET_CONFIG, "earliest")
+
+// Create Kafka consumer
+def consumer = new KafkaConsumer(myprops, new StringDeserializer(), new StringDeserializer())
+consumer.subscribe(Arrays.asList("cds.invoice", "invoice.status"))
+
+def maxPolls = 1 // Define the number of poll iterations
+
+for (int i = 0; i &lt; maxPolls; i++) {  
+    def messages = consumer.poll(80000)
+    if (!messages.isEmpty()) {
+        messages.each { message ->
+            def deserializedValue = new JsonSlurper().parseText(message.value())
+            log.info( "************* deserializedValue************************************")
+            log.info("Received message: key = ${message.key()}, value = ${deserializedValue}")
+        }
+    }
+    consumer.commitSync()
+}
+
+
+
+
+
+
+
+// Print and inspect messages
+//messages.each { message -&gt;
+   // try {
+       // def deserializedValue = new JsonSlurper().parseText(message.value())
+       // log.info("Received message: key = ${message.key()}, value = ${deserializedValue}")
+    //} catch (Exception e) {
+       // log.error("Failed to process message: ${message.value()}", e)
+    //}
+//}
+
+// Close Kafka consumer
+//consumer.close()
+
+SampleResult.sampleEnd()</stringProp>
+        </JSR223Sampler>
+        <hashTree/>
+      </hashTree>
+    </hashTree>
+  </hashTree>
+</jmeterTestPlan>

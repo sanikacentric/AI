@@ -1,0 +1,24 @@
+streamlit
+openai>=1.0.0  # Ensure compatibility with the latest API
+python-dotenv
+tavily-python
+langchain
+langchain-community
+langchain-core
+langchain-openai
+PyPDF2
+PyGithub
+matplotlib
+pandas
+altair
+python-docx
+mammoth
+python-pptx
+seaborn
+wordcloud
+networkx
+PyMuPDF
+fitz
+pdfplumber
+openpyxl
+psycopg2-binary  # Use binary version to avoid pg_config issues

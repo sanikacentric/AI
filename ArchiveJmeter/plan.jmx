@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.4.1">
+  <hashTree>
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Test Plan" enabled="true">
+      <stringProp name="TestPlan.comments"></stringProp>
+      <boolProp name="TestPlan.functional_mode">false</boolProp>
+      <boolProp name="TestPlan.tearDown_on_shutdown">true</boolProp>
+      <boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
+      <elementProp name="TestPlan.user_defined_variables" elementType="Arguments">
+        <collectionProp name="Arguments.arguments">
+          <elementProp name="udv_bootstrap_servers" elementType="Argument">
+            <stringProp name="Argument.name">udv_bootstrap_servers</stringProp>
+            <stringProp name="Argument.value">b-1.mskqa.cy8z3n.c13.kafka.us-east-1.amazonaws.com:9096,b-2.mskqa.cy8z3n.c13.kafka.us-east-1.amazonaws.com:9096</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="udv_security_protocol" elementType="Argument">
+            <stringProp name="Argument.name">udv_security_protocol</stringProp>
+            <stringProp name="Argument.value">SASL_SSL</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="udv_sasl_mechanism" elementType="Argument">
+            <stringProp name="Argument.name">udv_sasl_mechanism</stringProp>
+            <stringProp name="Argument.value">SCRAM-SHA-512</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="udv_sasl_jaas_config_user" elementType="Argument">
+            <stringProp name="Argument.name">udv_sasl_jaas_config_user</stringProp>
+            <stringProp name="Argument.value">develop</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="udv_sasl_jaas_config_password" elementType="Argument">
+            <stringProp name="Argument.name">udv_sasl_jaas_config_password</stringProp>
+            <stringProp name="Argument.value">z3PhuNGqeh52YpUJcv</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="udv_kafka_topic" elementType="Argument">
+            <stringProp name="Argument.name">udv_kafka_topic</stringProp>
+            <stringProp name="Argument.value">ip.documents</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="udv_relative_file_path" elementType="Argument">
+            <stringProp name="Argument.name">udv_relative_file_path</stringProp>
+            <stringProp name="Argument.value">{"messageId":"${__UUID}","timestamp":"${__time(/1000,testTimeStamp)}","eventType":"DocumentCreated","correlationId":"XFRG7789FGYHLKIYH890GH","compression":"","ContentType":"json","clientId":"Looktest","supplierId":"${__UUID}","buyerId":"${__UUID}","version":"1.0","origin":"integration-platform","payload":{"transactionId":"${__UUID}","documentNumber":"sds Test Document to CDS","documentType":"invoice","cxml":"&lt;cXML xml:lang=&#39;en-US&#39; timestamp=&#39;${new Date().toISOString()}&#39; payloadID=&#39;${generateUUID()}@prd1246utl2.int.coupa&#39;&gt;&lt;Header&gt;&lt;From&gt;&lt;Credential domain=&#39;DUNS&#39;&gt;&lt;Identity&gt;Corcentric&lt;/Identity&gt;&lt;/Credential&gt;&lt;/From&gt;&lt;To&gt;&lt;Credential domain=&#39;NetworkID&#39;&gt;&lt;Identity&gt;CLIENT&lt;/Identity&gt;&lt;/Credential&gt;&lt;Sender&gt;&lt;Credential domain=&#39;DUNS&#39;&gt;&lt;Identity&gt;Corcentric&lt;/Identity&gt;&lt;SharedSecret&gt;Welcome1&lt;/SharedSecret&gt;&lt;/Credential&gt;&lt;UserAgent&gt;PurchaseManager&lt;/UserAgent&gt;&lt;/Sender&gt;&lt;/Header&gt;&lt;Request deploymentMode=&#39;production&#39;&gt;&lt;InvoiceDetailRequest&gt;&lt;InvoiceDetailRequestHeader invoiceID=&#39;${generateUUID()}&#39; purpose=&#39;standard&#39; operation=&#39;new&#39; invoiceDate=&#39;${new Date().toISOString()}&#39;&gt;&lt;InvoiceDetailHeaderIndicator/&gt;&lt;InvoiceDetailLineIndicator/&gt;&lt;InvoicePartner&gt;&lt;Contact role=&#39;billFrom&#39; addressID=&#39;CorcProd&#39;&gt;&lt;Name xml:lang=&#39;en-US&#39;&gt;Pinnacle Fleet Solutions&lt;/Name&gt;&lt;PostalAddress name=&#39;Pinnacle Fleet Solutions&#39;&gt;&lt;Street&gt;62861 Collections Center Drive&lt;/Street&gt;&lt;City&gt;Chicago&lt;/City&gt;&lt;State&gt;IL &lt;/State&gt;&lt;PostalCode&gt;60693&lt;/PostalCode&gt;&lt;Country isoCountryCode=&#39;PL&#39;&gt;Poland&lt;/Country&gt;&lt;/PostalAddress&gt;&lt;/Contact&gt;&lt;/InvoicePartner&gt;&lt;InvoicePartner&gt;&lt;Contact role=&#39;billTo&#39; addressID=&#39;RW132&#39;&gt;&lt;Name xml:lang=&#39;en-US&#39;&gt;CLIENT National Serv&lt;/Name&gt;&lt;PostalAddress name=&#39;CLIENT National Serv&#39;&gt;&lt;Street&gt;P.O. Box # 6700&lt;/Street&gt;&lt;City&gt;PORTLAND&lt;/City&gt;&lt;State&gt;OR&lt;/State&gt;&lt;PostalCode&gt;97228-6700&lt;/PostalCode&gt;&lt;Country isoCountryCode=&#39;US&#39;&gt;United States&lt;/Country&gt;&lt;/PostalAddress&gt;&lt;/Contact&gt;&lt;/InvoicePartner&gt;&lt;InvoiceDetailShipping&gt;&lt;Contact role=&#39;shipTo&#39; addressID=&#39;RW132&#39;&gt;&lt;Name xml:lang=&#39;en-US&#39;&gt;Amex Traders&lt;/Name&gt;&lt;PostalAddress name=&#39;Amex Traders&#39;&gt;&lt;Street&gt;P.O. Box # 6701&lt;/Street&gt;&lt;City&gt;MARYLAND&lt;/City&gt;&lt;State&gt;GA&lt;/State&gt;&lt;PostalCode&gt;30005&lt;/PostalCode&gt;&lt;Country isoCountryCode=&#39;US&#39;&gt;United States&lt;/Country&gt;&lt;/PostalAddress&gt;&lt;/Contact&gt;&lt;Contact role=&#39;shipFrom&#39; addressID=&#39;RW132&#39;&gt;&lt;Name xml:lang=&#39;en-US&#39;&gt;Happy Shipping Co&lt;/Name&gt;&lt;PostalAddress name=&#39;Happy Shipping Co&#39;&gt;&lt;Street&gt;P.O. Box # 6702&lt;/Street&gt;&lt;City&gt;GREENLAND&lt;/City&gt;&lt;State&gt;CA&lt;/State&gt;&lt;PostalCode&gt;27801-67879&lt;/PostalCode&gt;&lt;Country isoCountryCode=&#39;PL&#39;&gt;Poland&lt;/Country&gt;&lt;/PostalAddress&gt;&lt;/Contact&gt;&lt;/InvoiceDetailShipping&gt;&lt;InvoiceDetailPaymentTerm payInNumberOfDays=&#39;45&#39; percentageRate=&#39;0&#39;/&gt;&lt;/InvoiceDetailRequestHeader&gt;&lt;InvoiceDetailOrder&gt;&lt;InvoiceDetailOrderInfo&gt;&lt;OrderReference&gt;&lt;DocumentReference payloadID=&#39;13554341&#39;/&gt;&lt;/OrderReference&gt;&lt;/InvoiceDetailOrderInfo&gt;&lt;InvoiceDetailItem invoiceLineNumber=&#39;1&#39; quantity=&#39;1.0000&#39;&gt;&lt;UnitOfMeasure&gt;EA&lt;/UnitOfMeasure&gt;&lt;UnitPrice&gt;&lt;Money currency=&#39;USD&#39;&gt;249.9900&lt;/Money&gt;&lt;/UnitPrice&gt;&lt;InvoiceDetailItemReference lineNumber=&#39;1&#39;&gt;&lt;ItemID&gt;&lt;SupplierPartID&gt;G00000000406G&lt;/SupplierPartID&gt;&lt;/ItemID&gt;&lt;Description xml:lang=&#39;en-US&#39;&gt;Document Test&lt;/Description&gt;&lt;UnitOfMeasure&gt;EA&lt;/UnitOfMeasure&gt;&lt;Classification domain=&#39;UNSPSC&#39;&gt;86132201&lt;/Classification&gt;&lt;/InvoiceDetailItemReference&gt;&lt;SubtotalAmount&gt;&lt;Money currency=&#39;USD&#39;&gt;249.9900&lt;/Money&gt;&lt;/SubtotalAmount&gt;&lt;/InvoiceDetailItem&gt;&lt;/InvoiceDetailOrder&gt;&lt;InvoiceDetailSummary&gt;&lt;SubtotalAmount&gt;&lt;Money currency=&#39;USD&#39;&gt;249.9900&lt;/Money&gt;&lt;/SubtotalAmount&gt;&lt;Tax&gt;&lt;Money currency=&#39;USD&#39;&gt;0.0000&lt;/Money&gt;&lt;Description xml:lang=&#39;en-US&#39;&gt;Not Provided&lt;/Description&gt;&lt;/Tax&gt;&lt;SpecialHandlingAmount&gt;&lt;Money currency=&#39;USD&#39;&gt;0.0000&lt;/Money&gt;&lt;/SpecialHandlingAmount&gt;&lt;ShippingAmount&gt;&lt;Money currency=&#39;USD&#39;&gt;0.0000&lt;/Money&gt;&lt;/ShippingAmount&gt;&lt;NetAmount&gt;&lt;Money currency=&#39;USD&#39;&gt;249.9900&lt;/Money&gt;&lt;/NetAmount&gt;&lt;/InvoiceDetailSummary&gt;&lt;/InvoiceDetailRequest&gt;&lt;/Request&gt;&lt;/cXML&gt;"}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+        </collectionProp>
+      </elementProp>
+      <stringProp name="TestPlan.user_define_classpath"></stringProp>
+    </TestPlan>
+    <hashTree>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Thread Group" enabled="true">
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+          <stringProp name="LoopController.loops">1</stringProp>
+        </elementProp>
+        <stringProp name="ThreadGroup.num_threads">1</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">1</stringProp>
+        <longProp name="ThreadGroup.start_time">1626432181000</longProp>
+        <longProp name="ThreadGroup.end_time">1626432181000</longProp>
+        <boolProp name="ThreadGroup.scheduler">false</boolProp>
+        <stringProp name="ThreadGroup.duration"></stringProp>
+        <stringProp name="ThreadGroup.delay"></stringProp>
+      </ThreadGroup>
+      <hashTree>
+        <JSR223Sampler guiclass="TestBeanGUI" testclass="JSR223Sampler" testname="JSR223 Sampler" enabled="true">
+          <stringProp name="scriptLanguage">groovy</stringProp>
+          <stringProp name="parameters"></stringProp>
+          <stringProp name="filename"></stringProp>
+          <stringProp name="script">import org.apache.kafka.clients.producer.*
+import org.apache.kafka.clients.CommonClientConfigs
+import org.apache.kafka.common.config.SaslConfigs
+
+import java.util.Properties
+
+def props = new Properties()
+props.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, vars.get("udv_bootstrap_servers"))
+props.put(CommonClientConfigs.SECURITY_PROTOCOL_CONFIG, vars.get("udv_security_protocol"))
+props.put(SaslConfigs.SASL_MECHANISM, vars.get("udv_sasl_mechanism"))
+props.put(SaslConfigs.SASL_JAAS_CONFIG, 'org.apache.kafka.common.security.scram.ScramLoginModule required username="' + vars.get("udv_sasl_jaas_config_user") + '" password="' + vars.get("udv_sasl_jaas_config_password") + '";')
+props.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, "org.apache.kafka.common.serialization.StringSerializer")
+props.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, "org.apache.kafka.common.serialization.StringSerializer")
+
+def producer = new KafkaProducer&lt;String, String&gt;(props)
+
+def topic = vars.get("udv_kafka_topic")
+def value = vars.get("udv_relative_file_path")
+
+def record = new ProducerRecord&lt;String, String&gt;(topic, value)
+producer.send(record)
+
+producer.close()
+
+SampleResult.sampleEnd()</stringProp>
+        </JSR223Sampler>
+        <hashTree/>
+      </hashTree>
+    </hashTree>
+  </hashTree>
+</jmeterTestPlan>

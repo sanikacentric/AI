@@ -1,0 +1,8 @@
+version: '3'
+services:
+  github-report:
+    build: .
+    environment:
+      GITHUB_TOKEN: "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"
+    ports:
+      - "8080:8080"

@@ -1,0 +1,71 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1721335211406,2929,JSR223 Sampler,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1721336240480,468,JSR223 Sampler,500,"javax.script.ScriptException: org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script1.groovy: 2: unable to resolve class org.apache.kafka.clients.CommonClientConfigs
+ @ line 2, column 1.
+   import org.apache.kafka.clients.CommonClientConfigs
+   ^
+
+Script1.groovy: 3: unable to resolve class org.apache.kafka.common.config.SaslConfigs
+ @ line 3, column 1.
+   import org.apache.kafka.common.config.SaslConfigs
+   ^
+
+Script1.groovy: 15: unable to resolve class KafkaProducer <String, String>
+ @ line 15, column 16.
+   def producer = new KafkaProducer<String, String>(props)
+                  ^
+
+Script1.groovy: 20: unable to resolve class ProducerRecord <String, String>
+ @ line 20, column 14.
+   def record = new ProducerRecord<String, String>(topic, value)
+                ^
+
+4 errors
+",Thread Group 1-1,text,false,,0,0,1,1,null,0,0,0
+1721688265868,1735,Kafka Producer,500,"javax.script.ScriptException: org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script1.groovy: 5: unable to resolve class org.apache.kafka.clients.CommonClientConfigs
+ @ line 5, column 1.
+   import org.apache.kafka.clients.CommonClientConfigs
+   ^
+
+Script1.groovy: 6: unable to resolve class org.apache.kafka.common.config.SaslConfigs
+ @ line 6, column 1.
+   import org.apache.kafka.common.config.SaslConfigs
+   ^
+
+Script1.groovy: 18: unable to resolve class KafkaProducer <String, String>
+ @ line 18, column 16.
+   def producer = new KafkaProducer<String, String>(props)
+                  ^
+
+Script1.groovy: 27: unable to resolve class ProducerRecord <String, String>
+ @ line 27, column 14.
+   def record = new ProducerRecord<String, String>(topic, key, value)
+                ^
+
+4 errors
+",Thread Group 1-1,text,false,,0,0,1,1,null,0,0,0
+1721688623938,1587,Kafka Producer,500,"javax.script.ScriptException: org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script1.groovy: 5: unable to resolve class org.apache.kafka.clients.CommonClientConfigs
+ @ line 5, column 1.
+   import org.apache.kafka.clients.CommonClientConfigs
+   ^
+
+Script1.groovy: 6: unable to resolve class org.apache.kafka.common.config.SaslConfigs
+ @ line 6, column 1.
+   import org.apache.kafka.common.config.SaslConfigs
+   ^
+
+Script1.groovy: 18: unable to resolve class KafkaProducer <String, String>
+ @ line 18, column 16.
+   def producer = new KafkaProducer<String, String>(props)
+                  ^
+
+Script1.groovy: 27: unable to resolve class ProducerRecord <String, String>
+ @ line 27, column 14.
+   def record = new ProducerRecord<String, String>(topic, key, value)
+                ^
+
+4 errors
+",Thread Group 1-1,text,false,,0,0,1,1,null,0,0,0

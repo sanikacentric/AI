@@ -1,0 +1,50 @@
+{
+  "Kafka Consumer" : {
+    "transaction" : "Kafka Consumer",
+    "sampleCount" : 5,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 209051.8,
+    "medianResTime" : 209095.0,
+    "minResTime" : 207840.0,
+    "maxResTime" : 210014.0,
+    "pct1ResTime" : 210014.0,
+    "pct2ResTime" : 210014.0,
+    "pct3ResTime" : 210014.0,
+    "throughput" : 0.004770013785339839,
+    "receivedKBytesPerSec" : 0.0,
+    "sentKBytesPerSec" : 0.0
+  },
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 10,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 105025.3,
+    "medianResTime" : 104940.0,
+    "minResTime" : 526.0,
+    "maxResTime" : 210014.0,
+    "pct1ResTime" : 209949.8,
+    "pct2ResTime" : 210014.0,
+    "pct3ResTime" : 210014.0,
+    "throughput" : 0.009521479028466366,
+    "receivedKBytesPerSec" : 0.0,
+    "sentKBytesPerSec" : 0.0
+  },
+  "Kafka Producer" : {
+    "transaction" : "Kafka Producer",
+    "sampleCount" : 5,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 998.8,
+    "medianResTime" : 739.0,
+    "minResTime" : 526.0,
+    "maxResTime" : 2040.0,
+    "pct1ResTime" : 2040.0,
+    "pct2ResTime" : 2040.0,
+    "pct3ResTime" : 2040.0,
+    "throughput" : 0.005944158200204003,
+    "receivedKBytesPerSec" : 0.0,
+    "sentKBytesPerSec" : 0.0
+  }
+}

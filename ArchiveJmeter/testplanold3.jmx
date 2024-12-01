@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?> <jmeterTestPlan version="1.2" properties="5.0" jmeter="5.4.1"> <hashTree> <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Test Plan" enabled="true"> <stringProp name="TestPlan.comments"></stringProp> <boolProp name="TestPlan.functional_mode">false</boolProp> <boolProp name="TestPlan.tearDown_on_shutdown">true</boolProp> <boolProp name="TestPlan.serialize_threadgroups">false</boolProp> <elementProp name="TestPlan.user_defined_variables" elementType="Arguments"> <collectionProp name="Arguments.arguments"> <elementProp name="udv\_bootstrap\_servers" elementType="Argument"> <stringProp name="Argument.name">udv\_bootstrap\_servers</stringProp> <stringProp name="Argument.value">b-1.mskqa.cy8z3n.c13.kafka.us-east-1.amazonaws.com:9096,b-2.mskqa.cy8z3n.c13.kafka.us-east-1.amazonaws.com:9096</stringProp> <stringProp name="Argument.metadata">=</stringProp> </elementProp> <elementProp name="udv\_security\_protocol" elementType="Argument"> <stringProp name="Argument.name">udv\_security\_protocol</stringProp> <stringProp name="Argument.value">SASL\_SSL</stringProp> <stringProp name="Argument.metadata">=</stringProp> </elementProp> <elementProp name="udv\_sasl\_mechanism" elementType="Argument"> <stringProp name="Argument.name">udv\_sasl\_mechanism</stringProp> <stringProp name="Argument.value">SCRAM-SHA-512</stringProp> <stringProp name="Argument.metadata">=</stringProp> </elementProp> <elementProp name="udv\_sasl\_jaas\_config\_user" elementType="Argument"> <stringProp name="Argument.name">udv\_sasl\_jaas\_config\_user</stringProp> <stringProp name="Argument.value">develop</stringProp> <stringProp name="Argument.metadata">=</stringProp> </elementProp> <elementProp name="udv\_sasl\_jaas\_config\_password" elementType="Argument"> <stringProp name="Argument.name">udv\_sasl\_jaas\_config\_password</stringProp> <stringProp name="Argument.value">z3PhuNGqeh52YpUJcv</stringProp> <stringProp name="Argument.metadata">=</stringProp> </elementProp> <elementProp name="udv\_kafka\_topic" elementType="Argument"> <stringProp name="Argument.name">udv\_kafka\_topic</stringProp> <stringProp name="Argument.value">ip.documents</stringProp> <stringProp name="Argument.metadata">=</stringProp> </elementProp> <elementProp name="udv\_relative\_file\_path" elementType="Argument"> <stringProp name="Argument.name">udv\_relative\_file\_path</stringProp> <stringProp name="Argument.value"></stringProp> <stringProp name="Argument.metadata">=</stringProp> </elementProp> </collectionProp> </elementProp> <stringProp name="TestPlan.user\_define\_classpath"></stringProp> </TestPlan> <hashTree> <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Thread Group" enabled="true"> <stringProp name="ThreadGroup.on\_sample\_error">continue</stringProp> <elementProp name="ThreadGroup.main\_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true"> <boolProp name="LoopController.continue\_forever">false</boolProp> <stringProp name="LoopController.loops">1</stringProp> </elementProp> <stringProp name="ThreadGroup.num\_threads">1</stringProp> <stringProp name="ThreadGroup.ramp\_time">1</stringProp> <longProp name="ThreadGroup.start\_time">1626432181000</longProp> <longProp name="ThreadGroup.end\_time">1626432181000</longProp> <boolProp name="ThreadGroup.scheduler">false</boolProp> <stringProp name="ThreadGroup.duration"></stringProp> <stringProp name="ThreadGroup.delay"></stringProp> </ThreadGroup> <hashTree> <JSR223Sampler guiclass="TestBeanGUI" testclass="JSR223Sampler" testname="JSR223 Sampler" enabled="true"> <stringProp name="scriptLanguage">groovy</stringProp> <stringProp name="parameters"></stringProp> <stringProp name="filename"></stringProp> <stringProp name="script">import org.apache.kafka.clients.producer.\* import org.apache.kafka.clients.CommonClientConfigs import org.apache.kafka.common.config.SaslConfigs
+import java.util.Properties
+
+def props = new Properties()
+props.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, vars.get("udv_bootstrap_servers"))
+props.put(CommonClientConfigs.SECURITY_PROTOCOL_CONFIG, vars.get("udv_security_protocol"))
+props.put(SaslConfigs.SASL_MECHANISM, vars.get("udv_sasl_mechanism"))
+props.put(SaslConfigs.SASL_JAAS_CONFIG, 'org.apache.kafka.common.security.scram.ScramLoginModule required username="' + vars.get("udv_sasl_jaas_config_user") + '" password="' + vars.get("udv_sasl_jaas_config_password") + '";')
+props.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, "org.apache.kafka.common.serialization.StringSerializer")
+props.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, "org.apache.kafka.common.serialization.StringSerializer")
+
+log.info("Kafka producer properties: " + props)
+
+def generateUUID() {
+// Generate a random UUID (version 4)
+return '4xxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replaceAll(/[xy]/, { c ->
+def r = (Math.random() * 16) as int
+def v = (c == 'x') ? r : (r & 0x3 | 0x8)
+return v.toString(16)
+})
+}
+
+log.info("Generating payload...")
+
+def payload = {
+"messageId": generateUUID(),
+"timestamp": System.currentTimeMillis(),
+"eventType": "DocumentCreated",
+"correlationId": generateUUID(),
+"compression": null,
+"ContentType": "json",
+"clientId": "Looktest",
+"version": "1.0",
+"supplierId": generateUUID(),
+"buyerId": generateUUID(),
+"origin": "integration-platform",
+"payload": {
+"transactionId": generateUUID(),
+"documentNumber": "sanikaLoadtest Document to CDS 
+𝑔
+𝑒
+𝑛
+𝑒
+𝑟
+𝑎
+𝑡
+𝑒
+𝑈
+𝑈
+𝐼
+𝐷
+(
+)
+"
+,
+"
+𝑠
+3
+𝐵
+𝑢
+𝑐
+𝑘
+𝑒
+𝑡
+"
+:
+"
+𝑖
+𝑛
+𝑣
+𝑜
+𝑖
+𝑐
+𝑒
+−
+𝑑
+𝑎
+𝑡
+𝑎
+−
+𝑎
+𝑡
+𝑡
+𝑎
+𝑐
+ℎ
+"
+,
+"
+𝑠
+3
+𝐾
+𝑒
+𝑦
+"
+:
+"
+𝐼
+𝑛
+𝑣
+𝑜
+𝑖
+𝑐
+𝑒
+𝐴
+𝑡
+𝑡
+𝑎
+𝑐
+ℎ
+𝑚
+𝑒
+𝑛
+𝑡
+𝑠
+−
+𝐷
+𝑒
+𝑣
+/
+𝑑
+𝑟
+𝑜
+𝑝
+𝑜
+𝑓
+𝑓
+/
+generateUUID()","s3Bucket":"invoice−data−attach","s3Key":"InvoiceAttachments−Dev/dropoff/{generateUUID()}",
+"documentType": "invoice",
+"cxml": "<cXML xml:lang='en-US' timestamp='${new Date().toISOString()}' payloadID='${generateUUID()}@prd1246utl2.int.coupa'><Header><From><Credential domain='DUNS'><Identity>Corcentric</Identity></Credential></From><To><Credential domain='NetworkID'><Identity>CLIENT</Identity></Credential></To><Sender><Credential domain='DUNS'><Identity>Corcentric</Identity><SharedSecret>Welcome1</SharedSecret></Credential><UserAgent>PurchaseManager</UserAgent></Sender></Header><Request deploymentMode='production'><InvoiceDetailRequest><InvoiceDetailRequestHeader invoiceID='${generateUUID()}' purpose='standard' operation='new' invoiceDate='${new Date().toISOString()}'><InvoiceDetailHeaderIndicator/><InvoiceDetailLineIndicator/><InvoicePartner><Contact role='billFrom' addressID='CorcProd'><Name xml:lang='en-US'>Pinnacle Fleet Solutions</Name><PostalAddress name='Pinnacle Fleet Solutions'><Street>62861 Collections Center Drive</Street><City>Chicago</City><State>IL </State><PostalCode>60693</PostalCode><Country isoCountryCode='PL'>Poland</Country></PostalAddress></Contact></InvoicePartner><InvoicePartner><Contact role='billTo' addressID='RW132'><Name xml:lang='en-US'>CLIENT National Serv</Name><PostalAddress name='CLIENT National Serv'><Street>P.O. Box # 6700</Street><City>PORTLAND</City><State>OR</State><PostalCode>97228-6700</PostalCode><Country isoCountryCode='US'>United States</Country></PostalAddress></Contact></InvoicePartner><InvoiceDetailShipping><Contact role='shipTo' addressID='RW132'><Name xml:lang='en-US'>Amex Traders</Name><PostalAddress name='Amex Traders'><Street>P.O. Box # 6701</Street><City>MARYLAND</City><State>GA</State><PostalCode>30005</PostalCode><Country isoCountryCode='US'>United States</Country></PostalAddress></Contact><Contact role='shipFrom' addressID='RW132'><Name xml:lang='en-US'>Happy Shipping Co</Name><PostalAddress name='Happy Shipping Co'><Street>P.O. Box # 6702</Street><City>GREENLAND</City><State>CA</State><PostalCode>27801-67879</PostalCode><Country isoCountryCode='PL'>Poland</Country></PostalAddress></Contact></InvoiceDetailShipping><InvoiceDetailPaymentTerm payInNumberOfDays='45' percentageRate='0'/></InvoiceDetailRequestHeader><InvoiceDetailOrder><InvoiceDetailOrderInfo><OrderReference><DocumentReference payloadID='13554341'/></OrderReference></InvoiceDetailOrderInfo><InvoiceDetailItem invoiceLineNumber='1' quantity='1.0000'><UnitOfMeasure>EA</UnitOfMeasure><UnitPrice><Money currency='USD'>249.9900</Money></UnitPrice><InvoiceDetailItemReference lineNumber='2'><ItemID><SupplierPartID>77922</SupplierPartID><SupplierPartAuxiliaryID>XX77922</SupplierPartAuxiliaryID></ItemID><Description xml:lang='en-US'>SOME BIG PART</Description></InvoiceDetailItemReference><SubtotalAmount><Money currency='USD'>249.99</Money></SubtotalAmount></InvoiceDetailItem><InvoiceDetailItem invoiceLineNumber='2' quantity='1.0000'><UnitOfMeasure>EA</UnitOfMeasure><UnitPrice><Money currency='USD'>160.9900</Money></UnitPrice><InvoiceDetailItemReference lineNumber='3'><ItemID><SupplierPartID>77923</SupplierPartID><SupplierPartAuxiliaryID>XX77923</SupplierPartAuxiliaryID></ItemID><Description xml:lang='en-US'>SOME SMALL PART</Description></InvoiceDetailItemReference><SubtotalAmount><Money currency='USD'>160.99</Money></SubtotalAmount></InvoiceDetailItem><InvoiceDetailItem invoiceLineNumber='3' quantity='1.0000'><UnitOfMeasure>EA</UnitOfMeasure><UnitPrice><Money currency='USD'>121.9900</Money></UnitPrice><InvoiceDetailItemReference lineNumber='4'><ItemID><SupplierPartID>77921</SupplierPartID><SupplierPartAuxiliaryID>XXX77921</SupplierPartAuxiliaryID></ItemID><Description xml:lang='en-US'>SOMETHING ELSE</Description></InvoiceDetailItemReference><SubtotalAmount><Money currency='USD'>121.99</Money></SubtotalAmount></InvoiceDetailItem></InvoiceDetailOrder><InvoiceDetailSummary><SubtotalAmount><Money currency='USD'>532.9700</Money></SubtotalAmount><Tax><Money currency='USD'>0.00</Money><Description xml:lang='en-US'>tax</Description><TaxDetail purpose='tax' category='sales'><TaxAmount><Money currency='USD'>0.00</Money></TaxAmount><Description xml:lang='en-US'>tax</Description></TaxDetail></Tax><SpecialHandlingAmount><Money currency='USD'>0.00</Money></SpecialHandlingAmount><ShippingAmount><Money currency='USD'>0.00</Money></ShippingAmount><GrossAmount><Money currency='USD'>532.9700</Money></GrossAmount><InvoiceDetailDiscount><Money currency='USD'>0.00</Money></InvoiceDetailDiscount><NetAmount><Money currency='USD'>532.97</Money></NetAmount><DepositAmount><Money currency='USD'>0.00</Money></DepositAmount><DueAmount><Money currency='USD'>532.97</Money></DueAmount></InvoiceDetailSummary></InvoiceDetailRequest></Request></cXML>",
+"attachments": [
+{
+"Id": generateUUID(),
+"Url": "s3Url${generateUUID()}"
+},
+{
+"Id": generateUUID(),
+"Url": "s3Url${generateUUID()}"
+}
+]
+}
+};
+
+log.info("Payload: " + new groovy.json.JsonBuilder(payload).toString())
+
+def producer = new KafkaProducer<String, String>(props)
+
+def topic = vars.get("udv_kafka_topic")
+def value = new groovy.json.JsonBuilder(payload).toString()
+
+def record = new ProducerRecord<String, String>(topic, value)
+producer.send(record)
+
+producer.close()
+
+SampleResult.sampleEnd()</stringProp>
+</JSR223Sampler>
+<hashTree/>
+</hashTree>
+</hashTree>
+</hashTree>
+</jmeterTestPlan>

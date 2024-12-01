@@ -1,0 +1,73 @@
+version: '3.6'
+
+services:
+
+  influxdb:
+    image: influxdb:1.8.10
+    container_name: influxdbtest
+    restart: unless-stopped
+    networks:
+      - clusternetwork
+    ports:
+      - '8086:8086'
+    volumes:
+      - influxdb_data:/var/lib/influxdb
+    environment:
+      - INFLUXDB_DB=k6
+      - INFLUXDB_RETENTION_POLICY_NAME=my_retention_policy
+      - INFLUXDB_RETENTION_POLICY_DURATION=7d
+     
+  fluentbit:
+    container_name: fluentbit-test
+    image: cr.fluentbit.io/fluent/fluent-bit:2.1.4
+    volumes:
+      - /var/lib/docker/containers:/var/lib/docker/containers:ro
+      - ./fluent-bit.conf:/fluent-bit/etc/fluent-bit.conf
+    depends_on: [influxdb]
+    ports:
+      - "5140:5140"
+    networks:
+      - clusternetwork
+
+  grafana:
+    image: grafana/grafana
+    container_name: grafana-servertest
+    restart: unless-stopped
+    networks:
+      - clusternetwork
+    depends_on:
+      - influxdb
+    environment:
+      - GF_SECURITY_ADMIN_USER=admin
+      - GF_SECURITY_ADMIN_PASSWORD=admin1234
+      - GF_AUTH_BASIC_ENABLED=false
+      - GF_SERVER_SERVE_FROM_SUB_PATH=true
+    ports:
+      - '4300:3000'
+    volumes:
+      - ./dashboards:/var/lib/grafana/dashboards
+      - ./grafana-dashboard.yaml:/etc/grafana/provisioning/dashboards/dashboard.yaml
+      - ./grafana-datasource.yaml:/etc/grafana/provisioning/datasources/datasource.yaml
+
+  xk6-kafka:
+    image: mostafamoradian/xk6-kafka:latest
+    entrypoint: [""]
+    volumes:
+      - ./scripts/:/home/k6
+    environment:
+      - K6_OUT=influxdb=http://influxdb:8086/k6
+      
+    command: k6 run testsanika-1-iteration.js
+    depends_on:
+      - influxdb
+      - grafana
+    networks:
+      - clusternetwork
+
+volumes:
+  grafana_data:
+  influxdb_data:
+
+networks:
+  clusternetwork:
+     driver: bridge

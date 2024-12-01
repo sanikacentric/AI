@@ -1,0 +1,198 @@
+{
+    "messageId":"37c6f837-efff-4e5b-82ff-a689362e8313",
+	"timestamp":1713560591,
+	"eventType":"DocumentCreated",
+    "correlationId":"XFRG7789FGYHLKIYH890GH",
+    "compression":null,
+    "contentType":"json",
+    "clientId":"Looktest",
+    "version":"1.0",
+    "supplierId"    : "26b834e5-4a88-43b5-9016-2b6356a38981",
+    "buyerId"       :"31dc34ac-a992-4630-813b-2bf699ad0f93",
+    "origin":"integration-platform",
+    "payload":{
+        "transactionId":"bc876498-610a-46c5-90d3-4f880e21923e",
+	"documentNumber": "sanikatest1 Test Document to CDS",
+        "documentType":"Invoice",
+        "s3Bucket": "invoice-data-attach",
+        "s3Key": "InvoiceAttachments-Dev/dropoff/NSC00000000000005109-1216-ATTACHMENT.810",
+        "cxml":"<cXML xml:lang='en-US' timestamp='2024-03-19T11:08:11' payloadID='1710365599.3554342@prd1246utl2.int.coupa'>
+	<Header>
+		<From>
+			<Credential domain='DUNS'>
+				<Identity>Corcentric</Identity>
+			</Credential>
+		</From>
+		<To>
+			<Credential domain='NetworkID'>
+				<Identity>CLIENT</Identity>
+			</Credential>
+		</To>
+		<Sender>
+			<Credential domain='DUNS'>
+				<Identity>Corcentric</Identity>
+				<SharedSecret>Welcome1</SharedSecret>
+			</Credential>
+			<UserAgent>PurchaseManager</UserAgent>
+		</Sender>
+	</Header>
+	<Request deploymentMode='production'>
+		<InvoiceDetailRequest>
+			<InvoiceDetailRequestHeader invoiceID='000000108' purpose='standard' operation='new' invoiceDate='2024-03-19T00:00:00'>
+				<InvoiceDetailHeaderIndicator/>
+				<InvoiceDetailLineIndicator/>
+				<InvoicePartner>
+					<Contact role='billFrom' addressID='CorcProd'>
+						<Name xml:lang='en-US'>Pinnacle Fleet Solutions</Name>
+						<PostalAddress name='Pinnacle Fleet Solutions'>
+							<Street>62861 Collections Center Drive</Street>
+							<City>Chicago</City>
+							<State>IL </State>
+							<PostalCode>60693</PostalCode>
+							<Country isoCountryCode='BE'>Belgium</Country>
+						</PostalAddress>
+					</Contact>
+				</InvoicePartner>
+				<InvoicePartner>
+					<Contact role='billTo' addressID='RW132'>
+						<Name xml:lang='en-US'>CLIENT National Serv</Name>
+						<PostalAddress name='CLIENT National Serv'>
+							<Street>P.O. Box # 6700</Street>
+							<City>PORTLAND</City>
+							<State>OR</State>
+							<PostalCode>97228-6700</PostalCode>
+							<Country isoCountryCode='PL'>Poland</Country>
+						</PostalAddress>
+					</Contact>
+				</InvoicePartner>
+				<InvoiceDetailShipping>
+					<Contact role='shipTo' addressID='RW132'>
+						<Name xml:lang='en-US'>Amex Traders</Name>
+						<PostalAddress name='Amex Traders'>
+							<Street>P.O. Box # 6701</Street>
+							<City>MARYLAND</City>
+							<State>GA</State>
+							<PostalCode>30005</PostalCode>
+							<Country isoCountryCode='US'>United States</Country>
+						</PostalAddress>
+					</Contact>
+					<Contact role='shipFrom' addressID='RW132'>
+						<Name xml:lang='en-US'>Happy Shipping Co</Name>
+						<PostalAddress name='Happy Shipping Co'>
+							<Street>P.O. Box # 6702</Street>
+							<City>GREENLAND</City>
+							<State>CA</State>
+							<PostalCode>27801-67879</PostalCode>
+							<Country isoCountryCode='US'>Belgium</Country>
+						</PostalAddress>
+					</Contact>
+				</InvoiceDetailShipping>
+				<InvoiceDetailPaymentTerm payInNumberOfDays='45' percentageRate='0'/>
+			</InvoiceDetailRequestHeader>
+			<InvoiceDetailOrder>
+				<InvoiceDetailOrderInfo>
+					<OrderReference>
+						<DocumentReference payloadID='13554341'/>
+					</OrderReference>
+				</InvoiceDetailOrderInfo>
+				<InvoiceDetailItem invoiceLineNumber='1' quantity='1.0000'>
+					<UnitOfMeasure>EA</UnitOfMeasure>
+					<UnitPrice>
+						<Money currency='USD'>249.9900</Money>
+					</UnitPrice>
+					<InvoiceDetailItemReference lineNumber='2'>
+						<ItemID>
+							<SupplierPartID>77922</SupplierPartID>
+							<SupplierPartAuxiliaryID>XX77922</SupplierPartAuxiliaryID>
+						</ItemID>
+						<Description xml:lang='en-US'>SOME BIG PART</Description>
+					</InvoiceDetailItemReference>
+					<SubtotalAmount>
+						<Money currency='USD'>249.99</Money>
+					</SubtotalAmount>
+				</InvoiceDetailItem>
+				<InvoiceDetailItem invoiceLineNumber='2' quantity='1.0000'>
+					<UnitOfMeasure>EA</UnitOfMeasure>
+					<UnitPrice>
+						<Money currency='USD'>160.9900</Money>
+					</UnitPrice>
+					<InvoiceDetailItemReference lineNumber='3'>
+						<ItemID>
+							<SupplierPartID>77923</SupplierPartID>
+							<SupplierPartAuxiliaryID>XX77923</SupplierPartAuxiliaryID>
+						</ItemID>
+						<Description xml:lang='en-US'>SOME SMALL PART</Description>
+					</InvoiceDetailItemReference>
+					<SubtotalAmount>
+						<Money currency='USD'>160.99</Money>
+					</SubtotalAmount>
+				</InvoiceDetailItem>
+				<InvoiceDetailItem invoiceLineNumber='3' quantity='1.0000'>
+					<UnitOfMeasure>EA</UnitOfMeasure>
+					<UnitPrice>
+						<Money currency='USD'>121.9900</Money>
+					</UnitPrice>
+					<InvoiceDetailItemReference lineNumber='4'>
+						<ItemID>
+							<SupplierPartID>77921</SupplierPartID>
+							<SupplierPartAuxiliaryID>XXX77921</SupplierPartAuxiliaryID>
+						</ItemID>
+						<Description xml:lang='en-US'>SOMETHING ELSE</Description>
+					</InvoiceDetailItemReference>
+					<SubtotalAmount>
+						<Money currency='USD'>121.99</Money>
+					</SubtotalAmount>
+				</InvoiceDetailItem>
+			</InvoiceDetailOrder>
+			<InvoiceDetailSummary>
+				<SubtotalAmount>
+					<Money currency='USD'>532.9700</Money>
+				</SubtotalAmount>
+				<Tax>
+					<Money currency='USD'>0.00</Money>
+					<Description xml:lang='en-US'>tax</Description>
+					<TaxDetail purpose='tax' category='sales'>
+						<TaxAmount>
+							<Money currency='USD'>0.00</Money>
+						</TaxAmount>
+						<Description xml:lang='en-US'>tax</Description>
+					</TaxDetail>
+				</Tax>
+				<SpecialHandlingAmount>
+					<Money currency='USD'>0.00</Money>
+				</SpecialHandlingAmount>
+				<ShippingAmount>
+					<Money currency='USD'>0.00</Money>
+				</ShippingAmount>
+				<GrossAmount>
+					<Money currency='USD'>532.9700</Money>
+				</GrossAmount>
+				<InvoiceDetailDiscount>
+					<Money currency='USD'>0.00</Money>
+				</InvoiceDetailDiscount>
+				<NetAmount>
+					<Money currency='USD'>532.97</Money>
+				</NetAmount>
+				<DepositAmount>
+					<Money currency='USD'>0.00</Money>
+				</DepositAmount>
+				<DueAmount>
+					<Money currency='USD'>532.97</Money>
+				</DueAmount>
+			</InvoiceDetailSummary>
+		</InvoiceDetailRequest>
+	</Request>
+</cXML>",
+        "attachments":[
+            {
+                "Id":"caca1100-06a6-43a6-8f9d-c7406973ae11",
+                "Url":"s3Urlsanika"
+            },
+{
+                "Id":"8e8401ed-8075-4cba-901c-189ffa1c6777",
+                "Url":"s3Urlsanika"
+            }
+
+        ]
+    }
+}

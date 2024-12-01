@@ -1,0 +1,84 @@
+import streamlit as st
+from dataAnalyst import data_analysis_assistant
+from everydayChat import everyday_chat_assistant
+from imageGeneration import image_generation_assistant
+
+# Function to initialize session state
+def initialize_session_state():
+    """Initialize session state variables."""
+    if 'query_params' not in st.session_state:
+        st.session_state.query_params = {}
+
+# Main function to control the app
+def main():
+    initialize_session_state()
+
+    st.markdown("<h1 style='text-align: center;'>NexGen AI Hub! Please select an Assistant.</h1>", unsafe_allow_html=True)
+
+    # Add custom CSS for colorful buttons and emojis with very bold font
+    button_style = """
+    <style>
+    div[data-testid="stHorizontalBlock"] div:nth-child(1) button {
+        background-color: #4CAF50;  /* Green for Data Analysis */
+        color: black;  /* Black font */
+        font-weight: bold;  /* Bold font */
+        font-size: 28px; /* Larger text size */
+        height: 150px;
+        width: 100%;
+        border-radius: 10px;
+    }
+    div[data-testid="stHorizontalBlock"] div:nth-child(2) button {
+        background-color: #FFB6C1;  /* Light Pink for Everyday Chat */
+        color: black;  /* Black font */
+        font-weight: bold;  /* Bold font */
+        font-size: 28px; /* Larger text size */
+        height: 150px;
+        width: 100%;
+        border-radius: 10px;
+    }
+    div[data-testid="stHorizontalBlock"] div:nth-child(3) button {
+        background-color: #33C1FF;  /* Light Blue for Image Generation */
+        color: black;  /* Black font */
+        font-weight: bold;  /* Bold font */
+        font-size: 28px; /* Larger text size */
+        height: 150px;
+        width: 100%;
+        border-radius: 10px;
+    }
+    .emoji {
+        font-size: 50px;  /* Larger emoji size */
+        display: block;
+    }
+    </style>
+    """
+    st.markdown(button_style, unsafe_allow_html=True)
+
+    col1, col2, col3 = st.columns(3)
+
+    # Buttons inside the columns
+    with col1:
+        if st.button("📊 Data Analysis Assistant"):
+            st.session_state.query_params["page"] = "data_analysis"
+
+    with col2:
+        if st.button("🤖 Everyday Chat Assistant"):
+            st.session_state.query_params["page"] = "everyday_chat"
+
+    with col3:
+        if st.button("🎨 Image Generation Assistant"):
+            st.session_state.query_params["page"] = "image_generation"
+
+    # Handle page navigation
+    page = st.session_state.query_params.get("page", "home")
+
+    if page == "data_analysis":
+        data_analysis_assistant()
+    elif page == "everyday_chat":
+        everyday_chat_assistant()
+    elif page == "image_generation":
+        image_generation_assistant()
+    else:
+        st.write("<p style='text-align: center;'>Welcome! Please select an assistant.</p>", unsafe_allow_html=True)
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,11 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,bytes,grpThreads,allThreads,Latency,SampleCount,ErrorCount,IdleTime,Connect
+2024/08/07 21:37:06.061,2040,Kafka Producer,200,OK,Thread Group 1-1,text,true,0,1,1,0,1,0,0,0
+2024/08/07 21:37:08.103,208938,Kafka Consumer,200,OK,Thread Group 1-1,text,true,0,1,1,0,1,0,0,0
+2024/08/07 21:40:37.041,526,Kafka Producer,200,OK,Thread Group 1-1,text,true,0,1,1,0,1,0,0,0
+2024/08/07 21:40:37.567,210014,Kafka Consumer,200,OK,Thread Group 1-1,text,true,0,1,1,0,1,0,0,0
+2024/08/07 21:44:07.579,543,Kafka Producer,200,OK,Thread Group 1-1,text,true,0,1,1,0,1,0,0,0
+2024/08/07 21:44:08.122,207840,Kafka Consumer,200,OK,Thread Group 1-1,text,true,0,1,1,0,1,0,0,0
+2024/08/07 21:47:35.968,739,Kafka Producer,200,OK,Thread Group 1-1,text,true,0,1,1,0,1,0,0,0
+2024/08/07 21:47:36.708,209372,Kafka Consumer,200,OK,Thread Group 1-1,text,true,0,1,1,0,1,0,0,0
+2024/08/07 21:51:06.077,1146,Kafka Producer,200,OK,Thread Group 1-1,text,true,0,1,1,0,1,0,0,0
+2024/08/07 21:51:07.223,209095,Kafka Consumer,200,OK,Thread Group 1-1,text,true,0,1,1,0,1,0,0,0
