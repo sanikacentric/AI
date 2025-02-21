@@ -6,7 +6,7 @@ from langchain_community.chat_models import ChatOpenAI  # Updated import
 from langchain_community.agent_toolkits.sql.base import create_sql_agent  # Updated import
 
 # Set your OpenAI API key (replace with your actual API key or pass it during runtime)
-os.environ['OPENAI_API_KEY'] = "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" 
+os.environ['OPENAI_API_KEY'] = "sk" 
 
 # PostgreSQL database connection configuration
 db_user = "postgres"        # Username from your configuration
