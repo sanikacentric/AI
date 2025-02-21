@@ -3,7 +3,7 @@ import logging
 from openai import OpenAI
 
 # Replace 'your-api-key-here' with your actual OpenAI API key
-client = OpenAI(api_key='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')  # Replace with your actual key
+client = OpenAI(api_key='sk')  # Replace with your actual key
 logger = logging.getLogger(__name__)
 
 def create_assistant(instructions, model="gpt-4o-mini"):
